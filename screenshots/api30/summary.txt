@@ -1,0 +1,30 @@
+PASS | install | 
+PASS | launch shows boost tab | 
+PASS | disclosure dialog appears first | 
+PASS | no tunnel before consent | 
+PASS | boost becomes active | 
+PASS | tun interface exists | 
+PASS | service is foreground | 
+PASS | names resolve through tunnel | PING wikipedia.org (208.80.154.224) 56(84) bytes of data. / PING example.com (104.20.23.154) 56(84) bytes of data. / PING github.com (140.82.114.3) 56(84) bytes of data.
+PASS | tunnel answered DNS queries | count=31
+PASS | benchmark measured servers | 
+PASS | open radar | 
+PASS | sonar runs | 
+PASS | live SSID shown | 
+PASS | room reading saved | 
+PASS | open analyzer | 
+PASS | start ping test | 
+PASS | ping test ends with a verdict | ['المشكلة']
+PASS | channel recommendation | 
+PASS | open tools | 
+PASS | use generated password | 
+PASS | create QR card | 
+PASS | QR card saved | 
+PASS | share sheet returns | 
+PASS | open camera | 
+PASS | scanner stays alive | 
+PASS | switch to English | 
+FAIL | boost still on in English | 
+PASS | boost stops | 
+PASS | boost restarts | 
+PASS | no crash or ANR | 

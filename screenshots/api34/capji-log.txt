@@ -1,0 +1,368 @@
+11-26 17:14:39.309  1443  3298 I BlockstoreStorage: Clearing Blockstore Data for package com.capji.signalpro [CONTEXT service_id=258 ]
+11-26 17:14:39.312   824   855 V WindowManagerShell: Transition requested: android.os.BinderProxy@a934f0 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.capji.signalpro/.MainActivity } baseActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} topActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} origActivity=null realActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} numActivities=1 lastActiveTime=59444 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@7ccda69} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{2fb2cee com.capji.signalpro.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+11-26 17:14:39.313   521  2266 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.capji.signalpro/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+11-26 17:14:39.353   521   549 I ActivityManager: Start proc 4366:com.capji.signalpro/u0a192 for next-top-activity {com.capji.signalpro/com.capji.signalpro.MainActivity}
+11-26 17:14:39.358  4366  4366 I capji.signalpro: Late-enabling -Xcheck:jni
+11-26 17:14:39.430   521   936 D CoreBackPreview: Window{f3778ce u0 Splash Screen com.capji.signalpro}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@d8a91a1, mPriority=0, mIsAnimationCallback=false}
+11-26 17:14:39.434  4366  4366 I capji.signalpro: Using CollectorTypeCC GC.
+11-26 17:14:39.434  4366  4366 W capji.signalpro: Unexpected CPU variant for x86: x86_64.
+11-26 17:14:39.434  4366  4366 W capji.signalpro: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+11-26 17:14:39.723   521   538 V WindowManager: Sent Transition #7 createdAt=11-26 17:14:39.298 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.capji.signalpro/.MainActivity } baseActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} topActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} origActivity=null realActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} numActivities=1 lastActiveTime=59444 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{f35ba22 Task{64924a5 #8 type=standard A=10192:com.capji.signalpro}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{e2ccb3 com.capji.signalpro.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+11-26 17:14:39.724   521   538 V WindowManager:     info={id=7 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{f35ba22 Task{64924a5 #8 type=standard A=10192:com.capji.signalpro}}} m=OPEN f=NONE leash=Surface(name=Task=8)/@0xe538a96 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{61e270 Task{6d9556 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x284f461 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+11-26 17:14:39.850  4366  4366 W ziparchive: Unable to open '/data/app/~~6msDMKI-FRyBHhr71UcLJw==/com.capji.signalpro-Zg3qeQEMSkvhK46laY1p1w==/base.dm': No such file or directory
+11-26 17:14:39.852  4366  4366 W ziparchive: Unable to open '/data/app/~~6msDMKI-FRyBHhr71UcLJw==/com.capji.signalpro-Zg3qeQEMSkvhK46laY1p1w==/base.dm': No such file or directory
+11-26 17:14:40.583  4366  4366 D nativeloader: Configuring clns-6 for other apk /data/app/~~6msDMKI-FRyBHhr71UcLJw==/com.capji.signalpro-Zg3qeQEMSkvhK46laY1p1w==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~6msDMKI-FRyBHhr71UcLJw==/com.capji.signalpro-Zg3qeQEMSkvhK46laY1p1w==/lib/x86_64:/data/app/~~6msDMKI-FRyBHhr71UcLJw==/com.capji.signalpro-Zg3qeQEMSkvhK46laY1p1w==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.capji.signalpro
+11-26 17:14:40.590  4366  4366 V GraphicsEnvironment: ANGLE GameManagerService for com.capji.signalpro: false
+11-26 17:14:40.590  4366  4366 V GraphicsEnvironment: com.capji.signalpro is not listed in per-application setting
+11-26 17:14:41.299   521  2254 D CoreBackPreview: Window{8a3a203 u0 com.capji.signalpro/com.capji.signalpro.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@45c1d15, mPriority=0, mIsAnimationCallback=false}
+11-26 17:14:41.500   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{486e501 com.google.android.apps.messaging/10129} BLOCKED
+11-26 17:14:41.500   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{6fbffa6 com.google.android.gm/10141} BLOCKED
+11-26 17:14:41.500   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{1949de7 com.google.android.settings.intelligence/10118} BLOCKED
+11-26 17:14:41.775   521   538 W ziparchive: Unable to open '/data/app/~~6msDMKI-FRyBHhr71UcLJw==/com.capji.signalpro-Zg3qeQEMSkvhK46laY1p1w==/base.dm': No such file or directory
+11-26 17:14:41.776   521   538 I ActivityTaskManager: Displayed com.capji.signalpro/.MainActivity for user 0: +2s481ms
+11-26 17:14:41.918   521  2577 I ImeTracker: com.capji.signalpro:4b736d5b: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+11-26 17:14:41.918   521  2577 I ImeTracker: com.capji.signalpro:4b736d5b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-26 17:14:42.061  1536  1536 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.capji.signalpro fieldId=0 fieldName=null extras=null}, false)
+11-26 17:14:42.091  1638  1638 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.capji.signalpro], userId:[0], reason:[package is added.].
+11-26 17:14:42.106  1638  1638 I AiAiEcho: AppFetcherImpl onPackageChanged com.capji.signalpro.
+11-26 17:14:42.108  1638  3534 I AiAiEcho: AppIndexer Package:[com.capji.signalpro] UserProfile:[0] Enabled:[true].
+11-26 17:14:42.109  1638  3534 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.capji.signalpro], userId:[0], reason:[package is updated.].
+11-26 17:14:42.759   521  1951 W InputManager-JNI: Input channel object 'f3778ce Splash Screen com.capji.signalpro (client)' was disposed without first being removed with the input manager!
+11-26 17:14:42.766   521   804 D CoreBackPreview: Window{f3778ce u0 Splash Screen com.capji.signalpro EXITING}: Setting back callback null
+11-26 17:14:44.784  4475  4475 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:14:44.809  4475  4475 I AndroidRuntime: Using default boot image
+11-26 17:14:44.809  4475  4475 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:14:45.173  4475  4475 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:14:46.528  4366  4537 D ProfileInstaller: Installing profile for com.capji.signalpro
+11-26 17:14:48.183  4475  4475 D AndroidRuntime: Shutting down VM
+11-26 17:14:50.356  4366  4374 I capji.signalpro: Background concurrent copying GC freed 44827(2899KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 5276KB/10MB, paused 20us,7us total 673.051ms
+11-26 17:14:51.456  4630  4630 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:14:51.473  4630  4630 I AndroidRuntime: Using default boot image
+11-26 17:14:51.473  4630  4630 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:14:51.900  4630  4630 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:14:53.219   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{ad5b1ee com.google.android.youtube/10139} BLOCKED
+11-26 17:14:53.226   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{547768f com.google.android.apps.messaging/10129} BLOCKED
+11-26 17:14:53.226   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{e660715 com.google.android.apps.maps/10152} BLOCKED
+11-26 17:14:53.226   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{7273d1c com.google.android.contacts/10154} BLOCKED
+11-26 17:14:54.230  4630  4630 D AndroidRuntime: Shutting down VM
+11-26 17:14:55.833   521  1083 D CoreBackPreview: Window{d564693 u0 com.capji.signalpro/com.capji.signalpro.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@d90a439, mPriority=0, mIsAnimationCallback=false}
+11-26 17:14:56.958   521  2265 I ImeTracker: com.capji.signalpro:b55ae9f3: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+11-26 17:14:56.958   521  2265 I ImeTracker: com.capji.signalpro:b55ae9f3: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-26 17:14:56.964  1536  1536 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.capji.signalpro fieldId=0 fieldName=null extras=null}, false)
+11-26 17:14:57.667  4741  4741 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:14:57.703  4741  4741 I AndroidRuntime: Using default boot image
+11-26 17:14:57.704  4741  4741 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:14:58.250  4741  4741 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:15:02.364  4741  4741 D AndroidRuntime: Shutting down VM
+11-26 17:15:04.162   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{4baf8dd com.google.android.contacts/10154} BLOCKED
+11-26 17:15:06.236  4816  4816 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:15:06.240  4816  4816 I AndroidRuntime: Using default boot image
+11-26 17:15:06.240  4816  4816 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:15:06.625  4816  4816 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:15:08.389  4816  4816 D AndroidRuntime: Shutting down VM
+11-26 17:15:10.027   521   534 I Vpn     : Switched from [Legacy VPN] to com.capji.signalpro
+11-26 17:15:10.268   521  2577 D CoreBackPreview: Window{d564693 u0 com.capji.signalpro/com.capji.signalpro.MainActivity}: Setting back callback null
+11-26 17:15:10.367   521  2126 W InputManager-JNI: Input channel object 'd564693 com.capji.signalpro/com.capji.signalpro.MainActivity (client)' was disposed without first being removed with the input manager!
+11-26 17:15:10.650   521  2574 I ImeTracker: com.capji.signalpro:f0dadbeb: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+11-26 17:15:10.651   521  2574 I ImeTracker: com.capji.signalpro:f0dadbeb: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-26 17:15:10.661  1536  1536 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.capji.signalpro fieldId=0 fieldName=null extras=null}, false)
+11-26 17:15:10.902   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{d9166a3 com.google.android.as/10125} BLOCKED
+11-26 17:15:11.181   521   902 I ActivityManager: Background started FGS: Allowed [callingPackage: com.capji.signalpro; callingUid: 10192; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { act=com.capji.signalpro.vpn.START cmp=com.capji.signalpro/.vpn.CapjiDnsVpnService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+11-26 17:15:11.207   521  2574 D ConnectivityService: registerNetworkAgent NetworkAgentInfo{network{102}  handle{441492361229}  ni{VPN CONNECTING extra: } created=2026-11-26T17:15:11.207Z Score(Policies : IS_UNMETERED&IS_VPN ; KeepConnected : 0)   lp{{InterfaceName: tun0 LinkAddresses: [ 10.215.173.1/32 ] DnsAddresses: [ /10.215.173.2 ] Domains:  MTU: 4096 Routes: [ 10.215.173.2/32 -> 0.0.0.0 tun0 mtu 0 ]}}  nc{[ Transports: VPN Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED TransportInfo: <VpnTransportInfo{type=1, sessionId=CAPJI Signal Pro DNS, bypassable=true longLivedTcpConnectionsExpensive=false}> Uids: <{0-99999}> OwnerUid: 10192 AdminUids: [10192] UnderlyingNetworks: Null]}  factorySerialNumber=2}
+11-26 17:15:11.208   521  2574 I Vpn     : Established by com.capji.signalpro on tun0
+11-26 17:15:11.613   521   538 I GnssNetworkConnectivityHandler: updateNetworkState, state=CLOSED, connected=true, network=102, capabilities=[ Transports: WIFI|VPN Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=30000Kbps TransportInfo: <VpnTransportInfo{type=1, sessionId=CAPJI Signal Pro DNS, bypassable=true longLivedTcpConnectionsExpensive=false}> Uids: <{0-99999}> AdminUids: [10192] UnderlyingNetworks: [100]], availableNetworkCount: 3
+11-26 17:15:12.121  4878  4878 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:15:12.152  4878  4878 I AndroidRuntime: Using default boot image
+11-26 17:15:12.152  4878  4878 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:15:12.501  4878  4878 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:15:14.368  4878  4878 D AndroidRuntime: Shutting down VM
+11-26 17:15:20.877   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{48ccbbb com.google.android.googlequicksearchbox/10132} BLOCKED
+11-26 17:15:30.945  4366  4374 I capji.signalpro: Background young concurrent copying GC freed 109777(4043KB) AllocSpace objects, 4(208KB) LOS objects, 40% free, 6249KB/10MB, paused 19.394ms,15us total 348.807ms
+11-26 17:15:32.047   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{73cb99c com.google.android.googlequicksearchbox/10132} BLOCKED
+11-26 17:15:34.261  5120  5120 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:15:34.285  5120  5120 I AndroidRuntime: Using default boot image
+11-26 17:15:34.285  5120  5120 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:15:34.655  5120  5120 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:15:36.165  5120  5120 D AndroidRuntime: Shutting down VM
+11-26 17:15:36.585   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{3193173 com.google.android.apps.messaging/10129} BLOCKED
+11-26 17:15:37.754  5159  5159 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:15:37.766  5159  5159 I AndroidRuntime: Using default boot image
+11-26 17:15:37.783  5159  5159 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:15:38.188  5159  5159 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:15:43.906   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{a54cd95 com.google.android.contacts/10154} BLOCKED
+11-26 17:15:44.245  5159  5159 D AndroidRuntime: Shutting down VM
+11-26 17:15:48.444  5269  5269 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:15:48.449  5269  5269 I AndroidRuntime: Using default boot image
+11-26 17:15:48.449  5269  5269 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:15:48.936  5269  5269 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:15:52.429  5269  5269 D AndroidRuntime: Shutting down VM
+11-26 17:15:54.334   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{85d1caf com.google.android.contacts/10154} BLOCKED
+11-26 17:15:56.613  5350  5350 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:15:56.621  5350  5350 I AndroidRuntime: Using default boot image
+11-26 17:15:56.625  5350  5350 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:15:57.091  5350  5350 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:15:57.729   521  2579 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{e106e04 com.google.android.settings.intelligence/10118} BLOCKED
+11-26 17:15:59.104  5350  5350 D AndroidRuntime: Shutting down VM
+11-26 17:16:05.405  5442  5442 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:16:05.449  5442  5442 I AndroidRuntime: Using default boot image
+11-26 17:16:05.449  5442  5442 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:16:05.771  5442  5442 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:16:09.343  5442  5442 D AndroidRuntime: Shutting down VM
+11-26 17:16:11.040  5476  5476 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:16:11.052  5476  5476 I AndroidRuntime: Using default boot image
+11-26 17:16:11.053  5476  5476 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:16:11.334  5476  5476 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:16:17.049  5476  5476 D AndroidRuntime: Shutting down VM
+11-26 17:16:18.801  4366  4374 I capji.signalpro: Background young concurrent copying GC freed 110991(3659KB) AllocSpace objects, 0(0B) LOS objects, 25% free, 7881KB/10MB, paused 4.526ms,10us total 362.317ms
+11-26 17:16:28.316  5625  5625 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:16:28.335  5625  5625 I AndroidRuntime: Using default boot image
+11-26 17:16:28.335  5625  5625 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:16:28.744  5625  5625 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:16:30.243  4366  4374 I capji.signalpro: Background young concurrent copying GC freed 50928(2037KB) AllocSpace objects, 21(444KB) LOS objects, 27% free, 7676KB/10MB, paused 16us,41us total 337.209ms
+11-26 17:16:31.085  5625  5625 D AndroidRuntime: Shutting down VM
+11-26 17:16:32.671  5677  5677 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:16:32.677  5677  5677 I AndroidRuntime: Using default boot image
+11-26 17:16:32.677  5677  5677 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:16:32.927  5677  5677 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:16:34.531  5677  5677 D AndroidRuntime: Shutting down VM
+11-26 17:16:41.503   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{5b7a251 com.google.android.contacts/10154} BLOCKED
+11-26 17:16:43.177  4366  4374 I capji.signalpro: Background concurrent copying GC freed 99793(3754KB) AllocSpace objects, 20(408KB) LOS objects, 49% free, 6434KB/12MB, paused 2.419ms,11us total 401.500ms
+11-26 17:16:48.389  6025  6025 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:16:48.395  6025  6025 I AndroidRuntime: Using default boot image
+11-26 17:16:48.397  6025  6025 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:16:48.602  6025  6025 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:16:51.519   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{613ce9b com.google.android.contacts/10154} BLOCKED
+11-26 17:16:52.381  6025  6025 D AndroidRuntime: Shutting down VM
+11-26 17:16:55.919  6147  6147 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:16:55.923  6147  6147 I AndroidRuntime: Using default boot image
+11-26 17:16:55.923  6147  6147 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:16:56.106  6147  6147 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:17:01.558  6147  6147 D AndroidRuntime: Shutting down VM
+11-26 17:17:04.966  6198  6198 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:17:04.987  6198  6198 I AndroidRuntime: Using default boot image
+11-26 17:17:04.995  6198  6198 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:17:05.204  6198  6198 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:17:08.477  6198  6198 D AndroidRuntime: Shutting down VM
+11-26 17:17:12.052  6236  6236 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:17:12.064  6236  6236 I AndroidRuntime: Using default boot image
+11-26 17:17:12.068  6236  6236 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:17:12.308  6236  6236 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:17:17.145  6236  6236 D AndroidRuntime: Shutting down VM
+11-26 17:17:17.199   521   572 I AppsFilter: interaction: PackageSetting{5a0eae8 com.capji.signalpro/10192} -> PackageSetting{6a2a385 com.google.android.as/10125} BLOCKED
+11-26 17:17:20.961  6410  6410 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:17:20.964  6410  6410 I AndroidRuntime: Using default boot image
+11-26 17:17:20.964  6410  6410 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:17:21.306  6410  6410 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:17:24.568  6410  6410 D AndroidRuntime: Shutting down VM
+11-26 17:17:26.088  6443  6443 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:17:26.093  6443  6443 I AndroidRuntime: Using default boot image
+11-26 17:17:26.094  6443  6443 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:17:26.367  6443  6443 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:17:31.765  6443  6443 D AndroidRuntime: Shutting down VM
+11-26 17:17:34.772  6482  6482 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:17:34.777  6482  6482 I AndroidRuntime: Using default boot image
+11-26 17:17:34.777  6482  6482 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:17:35.055  6482  6482 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:17:39.011  6482  6482 D AndroidRuntime: Shutting down VM
+11-26 17:17:53.242  6532  6532 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:17:53.289  6532  6532 I AndroidRuntime: Using default boot image
+11-26 17:17:53.289  6532  6532 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:17:53.460  6532  6532 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:17:58.348  6532  6532 D AndroidRuntime: Shutting down VM
+11-26 17:18:01.808  6579  6579 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:18:01.816  6579  6579 I AndroidRuntime: Using default boot image
+11-26 17:18:01.816  6579  6579 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:18:02.211  6579  6579 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:18:05.970  6579  6579 D AndroidRuntime: Shutting down VM
+11-26 17:18:11.962  6617  6617 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:18:11.966  6617  6617 I AndroidRuntime: Using default boot image
+11-26 17:18:11.966  6617  6617 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:18:12.178  6617  6617 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:18:13.649  6617  6617 D AndroidRuntime: Shutting down VM
+11-26 17:18:59.017  6721  6721 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:18:59.022  6721  6721 I AndroidRuntime: Using default boot image
+11-26 17:18:59.022  6721  6721 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:18:59.281  6721  6721 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:19:03.734  6721  6721 D AndroidRuntime: Shutting down VM
+11-26 17:19:04.947  6746  6746 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:19:04.950  6746  6746 I AndroidRuntime: Using default boot image
+11-26 17:19:04.950  6746  6746 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:19:05.362  6746  6746 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:19:10.076  6746  6746 D AndroidRuntime: Shutting down VM
+11-26 17:19:13.483  6781  6781 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:19:13.525  6781  6781 I AndroidRuntime: Using default boot image
+11-26 17:19:13.527  6781  6781 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:19:13.721  6781  6781 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:19:15.807  6781  6781 D AndroidRuntime: Shutting down VM
+11-26 17:19:19.672  6844  6844 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:19:19.676  6844  6844 I AndroidRuntime: Using default boot image
+11-26 17:19:19.676  6844  6844 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:19:19.920  6844  6844 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:19:22.449  6844  6844 D AndroidRuntime: Shutting down VM
+11-26 17:19:32.632  6914  6914 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:19:32.637  6914  6914 I AndroidRuntime: Using default boot image
+11-26 17:19:32.642  6914  6914 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:19:32.788  6914  6914 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:19:32.791  4366  4374 I capji.signalpro: Background young concurrent copying GC freed 121967(4131KB) AllocSpace objects, 20(400KB) LOS objects, 35% free, 8243KB/12MB, paused 18us,13us total 139.122ms
+11-26 17:19:36.777  6914  6914 D AndroidRuntime: Shutting down VM
+11-26 17:19:40.373  6943  6943 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:19:40.377  6943  6943 I AndroidRuntime: Using default boot image
+11-26 17:19:40.377  6943  6943 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:19:40.591  6943  6943 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:19:42.563  6943  6943 D AndroidRuntime: Shutting down VM
+11-26 17:19:46.227  6967  6967 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:19:46.251  6967  6967 I AndroidRuntime: Using default boot image
+11-26 17:19:46.252  6967  6967 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:19:46.471  6967  6967 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:19:48.488  6967  6967 D AndroidRuntime: Shutting down VM
+11-26 17:19:55.984  6996  6996 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:19:55.989  6996  6996 I AndroidRuntime: Using default boot image
+11-26 17:19:55.989  6996  6996 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:19:56.194  6996  6996 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:19:57.936  6996  6996 D AndroidRuntime: Shutting down VM
+11-26 17:20:01.316  7021  7021 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:20:01.320  7021  7021 I AndroidRuntime: Using default boot image
+11-26 17:20:01.320  7021  7021 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:20:01.632  7021  7021 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:20:04.648  7021  7021 D AndroidRuntime: Shutting down VM
+11-26 17:20:08.287  7050  7050 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:20:08.292  7050  7050 I AndroidRuntime: Using default boot image
+11-26 17:20:08.293  7050  7050 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:20:08.568  7050  7050 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:20:11.368  7050  7050 D AndroidRuntime: Shutting down VM
+11-26 17:20:16.895   521  2581 W NotificationService: Toast already killed. pkg=com.capji.signalpro token=android.os.BinderProxy@e6fb87
+11-26 17:20:18.076  7112  7112 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:20:18.081  7112  7112 I AndroidRuntime: Using default boot image
+11-26 17:20:18.081  7112  7112 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:20:18.315  7112  7112 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:20:21.171  7112  7112 D AndroidRuntime: Shutting down VM
+11-26 17:20:23.427  4366  4374 I capji.signalpro: Background young concurrent copying GC freed 55630(1812KB) AllocSpace objects, 0(0B) LOS objects, 7% free, 11MB/12MB, paused 18us,31us total 417.567ms
+11-26 17:20:27.352  7147  7147 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:20:27.357  7147  7147 I AndroidRuntime: Using default boot image
+11-26 17:20:27.357  7147  7147 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:20:27.645  7147  7147 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:20:31.930  7147  7147 D AndroidRuntime: Shutting down VM
+11-26 17:20:35.652  7180  7180 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:20:35.675  7180  7180 I AndroidRuntime: Using default boot image
+11-26 17:20:35.675  7180  7180 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:20:35.871  7180  7180 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:20:38.935  7180  7180 D AndroidRuntime: Shutting down VM
+11-26 17:20:41.881  1643  1681 I MediaProvider: Open with lower FS for /storage/emulated/0/Pictures/CAPJI/.pending-1796318441-CAPJI-WiFi-1795713641841.png. Uid: 10192
+11-26 17:20:42.232  1643  1681 D MediaProvider: Moving /storage/emulated/0/Pictures/CAPJI/.pending-1796318441-CAPJI-WiFi-1795713641841.png to /storage/emulated/0/Pictures/CAPJI/CAPJI-WiFi-1795713641841.png
+11-26 17:20:46.675  7212  7212 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:20:46.685  7212  7212 I AndroidRuntime: Using default boot image
+11-26 17:20:46.685  7212  7212 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:20:46.856  7212  7212 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:20:50.782  7212  7212 D AndroidRuntime: Shutting down VM
+11-26 17:20:52.336  7233  7233 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:20:52.340  7233  7233 I AndroidRuntime: Using default boot image
+11-26 17:20:52.340  7233  7233 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:20:52.585  7233  7233 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:20:54.030  7233  7233 D AndroidRuntime: Shutting down VM
+11-26 17:20:55.260   824   855 V WindowManagerShell: Transition requested: android.os.BinderProxy@9684639 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.capji.signalpro/.MainActivity } baseActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} topActivity=ComponentInfo{com.android.intentresolver/com.android.intentresolver.ChooserActivity} origActivity=null realActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} numActivities=2 lastActiveTime=435390 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@fe1747e} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{bf12ddf com.android.intentresolver.ChooserActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+11-26 17:20:57.185   521   538 V WindowManager: Sent Transition #8 createdAt=11-26 17:20:55.246 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.capji.signalpro/.MainActivity } baseActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} topActivity=ComponentInfo{com.android.intentresolver/com.android.intentresolver.ChooserActivity} origActivity=null realActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} numActivities=2 lastActiveTime=435390 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{f35ba22 Task{64924a5 #8 type=standard A=10192:com.capji.signalpro}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{98e852c com.android.intentresolver.ChooserActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+11-26 17:21:03.446   521   596 I ImeTracker: com.capji.signalpro:2abd582a: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+11-26 17:21:03.446   521   596 I ImeTracker: com.capji.signalpro:2abd582a: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-26 17:21:03.460  1536  1536 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.capji.signalpro fieldId=0 fieldName=null extras=null}, false)
+11-26 17:21:05.451  7362  7362 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:21:05.456  7362  7362 I AndroidRuntime: Using default boot image
+11-26 17:21:05.456  7362  7362 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:21:05.691  7362  7362 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:21:09.884  7362  7362 D AndroidRuntime: Shutting down VM
+11-26 17:21:13.553  7389  7389 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:21:13.570  7389  7389 I AndroidRuntime: Using default boot image
+11-26 17:21:13.587  7389  7389 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:21:13.795  7389  7389 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:21:15.359  7389  7389 D AndroidRuntime: Shutting down VM
+11-26 17:21:17.058   521  2578 D CoreBackPreview: Window{b2b8841 u0 com.capji.signalpro/com.capji.signalpro.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@887fe79, mPriority=0, mIsAnimationCallback=false}
+11-26 17:21:17.848   521  2578 I ImeTracker: com.capji.signalpro:a4dc6b3d: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+11-26 17:21:17.848   521  2578 I ImeTracker: com.capji.signalpro:a4dc6b3d: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-26 17:21:17.920  1536  1536 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.capji.signalpro fieldId=0 fieldName=null extras=null}, false)
+11-26 17:21:23.208  4366  4374 I capji.signalpro: Background young concurrent copying GC freed 171568(6131KB) AllocSpace objects, 5(164KB) LOS objects, 36% free, 10047KB/15MB, paused 83us,14us total 149.197ms
+11-26 17:21:23.216   460   460 I CameraService: CameraService::connect call (PID 4366 "com.capji.signalpro", camera ID 10) and Camera API version 2
+11-26 17:21:23.275   460   460 I Camera2ClientBase: Camera 10: Opened. Client: com.capji.signalpro (PID 4366, UID 10192)
+11-26 17:21:39.077  7456  7456 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:21:39.082  7456  7456 I AndroidRuntime: Using default boot image
+11-26 17:21:39.085  7456  7456 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:21:39.484  7456  7456 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:21:42.489  7456  7456 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@e30b; boundsInParent: Rect(0, 0 - 1080, 2209); boundsInScreen: Rect(0, 128 - 1080, 2337); boundsInWindow: Rect(0, 128 - 1080, 2337); packageName: com.capji.signalpro; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+11-26 17:21:43.314  7456  7456 D AndroidRuntime: Shutting down VM
+11-26 17:21:44.816   521  2266 D CoreBackPreview: Window{b2b8841 u0 com.capji.signalpro/com.capji.signalpro.MainActivity}: Setting back callback null
+11-26 17:21:44.929  4366  5777 E BufferQueueProducer: [SurfaceView[com.capji.signalpro/com.capji.signalpro.MainActivity]#3(BLAST Consumer)3](id:110e00000005,api:4,p:460,c:4366) queueBuffer: BufferQueue has been abandoned
+11-26 17:21:44.929  4366  4765 E BufferQueueProducer: [SurfaceView[com.capji.signalpro/com.capji.signalpro.MainActivity]#3(BLAST Consumer)3](id:110e00000005,api:4,p:460,c:4366) dequeueBuffer: BufferQueue has been abandoned
+11-26 17:21:44.986   521  2577 W InputManager-JNI: Input channel object 'b2b8841 com.capji.signalpro/com.capji.signalpro.MainActivity (client)' was disposed without first being removed with the input manager!
+11-26 17:21:44.988  4366  6832 E BufferQueueProducer: [SurfaceView[com.capji.signalpro/com.capji.signalpro.MainActivity]#3(BLAST Consumer)3](id:110e00000005,api:4,p:460,c:4366) queueBuffer: BufferQueue has been abandoned
+11-26 17:21:44.993  4366  6832 E BufferQueueProducer: [SurfaceView[com.capji.signalpro/com.capji.signalpro.MainActivity]#3(BLAST Consumer)3](id:110e00000005,api:4,p:460,c:4366) cancelBuffer: BufferQueue has been abandoned
+11-26 17:21:44.999  4366  6832 E BufferQueueProducer: [SurfaceView[com.capji.signalpro/com.capji.signalpro.MainActivity]#3(BLAST Consumer)3](id:110e00000005,api:4,p:460,c:4366) cancelBuffer: BufferQueue has been abandoned
+11-26 17:21:45.254  4366  4765 W capji.signalpro: Long monitor contention with owner CameraX-core_camera_0 (7414) at void android.hardware.camera2.impl.CameraDeviceImpl.close()(CameraDeviceImpl.java:1457) waiters=0 in void android.hardware.camera2.impl.CameraDeviceImpl$CameraDeviceCallbacks.onCaptureStarted(android.hardware.camera2.impl.CaptureResultExtras, long) for 261ms
+11-26 17:21:45.450   521  2112 I ImeTracker: com.capji.signalpro:1fba6944: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+11-26 17:21:45.451   521  2112 I ImeTracker: com.capji.signalpro:1fba6944: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-26 17:21:45.530  1536  1536 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.capji.signalpro fieldId=0 fieldName=null extras=null}, false)
+11-26 17:21:46.400  4366  4374 I capji.signalpro: Background young concurrent copying GC freed 66843(4395KB) AllocSpace objects, 1(864KB) LOS objects, 36% free, 10018KB/15MB, paused 28us,14us total 159.392ms
+11-26 17:21:46.403   460   516 I Camera2ClientBase: ~Camera2ClientBase: Client object's dtor for Camera Id 10 completed. Client was: com.capji.signalpro (PID 4366, UID 10192)
+11-26 17:21:47.084  7488  7488 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:21:47.088  7488  7488 I AndroidRuntime: Using default boot image
+11-26 17:21:47.089  7488  7488 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:21:47.368  7488  7488 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:21:48.741  7488  7488 D AndroidRuntime: Shutting down VM
+11-26 17:21:52.233  7515  7515 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:21:52.238  7515  7515 I AndroidRuntime: Using default boot image
+11-26 17:21:52.239  7515  7515 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:21:52.475  7515  7515 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:21:55.023  7515  7515 D AndroidRuntime: Shutting down VM
+11-26 17:21:58.767  7540  7540 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:21:58.776  7540  7540 I AndroidRuntime: Using default boot image
+11-26 17:21:58.779  7540  7540 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:21:59.022  7540  7540 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:22:02.236  7540  7540 D AndroidRuntime: Shutting down VM
+11-26 17:22:05.854  7567  7567 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:22:05.863  7567  7567 I AndroidRuntime: Using default boot image
+11-26 17:22:05.863  7567  7567 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:22:06.319  7567  7567 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:22:10.450  7567  7567 D AndroidRuntime: Shutting down VM
+11-26 17:22:16.071  7609  7609 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:22:16.075  7609  7609 I AndroidRuntime: Using default boot image
+11-26 17:22:16.075  7609  7609 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:22:16.372  7609  7609 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:22:18.999  7609  7609 D AndroidRuntime: Shutting down VM
+11-26 17:22:21.940  7635  7635 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:22:21.952  7635  7635 I AndroidRuntime: Using default boot image
+11-26 17:22:21.953  7635  7635 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:22:22.126  7635  7635 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:22:24.325  7635  7635 D AndroidRuntime: Shutting down VM
+11-26 17:22:27.393  7666  7666 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:22:27.405  7666  7666 I AndroidRuntime: Using default boot image
+11-26 17:22:27.407  7666  7666 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:22:27.729  7666  7666 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:22:31.119  4366  4374 I capji.signalpro: Background young concurrent copying GC freed 156334(4829KB) AllocSpace objects, 4(144KB) LOS objects, 31% free, 10MB/15MB, paused 47us,16us total 239.561ms
+11-26 17:22:31.304  7666  7666 D AndroidRuntime: Shutting down VM
+11-26 17:22:43.261  7737  7737 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:22:43.266  7737  7737 I AndroidRuntime: Using default boot image
+11-26 17:22:43.266  7737  7737 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:22:43.480  7737  7737 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:22:46.856  7737  7737 D AndroidRuntime: Shutting down VM
+11-26 17:22:48.305  7761  7761 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:22:48.335  7761  7761 I AndroidRuntime: Using default boot image
+11-26 17:22:48.336  7761  7761 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:22:48.647  7761  7761 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:22:50.095  7761  7761 D AndroidRuntime: Shutting down VM
+11-26 17:22:51.388  7781  7781 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:22:51.394  7781  7781 I AndroidRuntime: Using default boot image
+11-26 17:22:51.394  7781  7781 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:22:51.770  7781  7781 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:22:53.735  7781  7781 D AndroidRuntime: Shutting down VM
+11-26 17:22:55.054  7802  7802 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:22:55.060  7802  7802 I AndroidRuntime: Using default boot image
+11-26 17:22:55.060  7802  7802 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:22:55.300  7802  7802 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:22:58.761  7802  7802 D AndroidRuntime: Shutting down VM
+11-26 17:23:07.573  7830  7830 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:23:07.580  7830  7830 I AndroidRuntime: Using default boot image
+11-26 17:23:07.580  7830  7830 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:23:07.809  7830  7830 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:23:09.124  7830  7830 D AndroidRuntime: Shutting down VM
+11-26 17:23:10.549  7851  7851 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-26 17:23:10.554  7851  7851 I AndroidRuntime: Using default boot image
+11-26 17:23:10.554  7851  7851 I AndroidRuntime: Leaving lock profiling enabled
+11-26 17:23:11.045  7851  7851 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-26 17:23:12.542  7851  7851 D AndroidRuntime: Shutting down VM
