@@ -1,0 +1,14 @@
+*.iml
+.gradle/
+.idea/
+.kotlin/
+local.properties
+build/
+app/build/
+*.apk
+*.aab
+*.jks
+*.keystore
+.DS_Store
+# Firebase config is optional and private to your project
+app/google-services.json

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CAPJI Signal Pro</string>
+    <string name="channel_vpn">تسريع DNS · DNS boost</string>
+    <string name="channel_news">أخبار كابجي · CAPJI news</string>
+</resources>
