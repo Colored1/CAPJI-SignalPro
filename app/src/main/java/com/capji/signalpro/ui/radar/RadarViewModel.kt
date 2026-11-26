@@ -47,7 +47,13 @@ class RadarViewModel(application: Application) : AndroidViewModel(application) {
     private val sonar = SonarPlayer(application)
     private var measureJob: Job? = null
 
-    private val mutable = MutableStateFlow(RadarUiState(rooms = store.load()))
+    private val mutable = MutableStateFlow(
+        RadarUiState(
+            hasPermission = wifi.hasLocationPermission(),
+            locationEnabled = wifi.isLocationEnabled(),
+            rooms = store.load(),
+        ),
+    )
     val state: StateFlow<RadarUiState> = mutable.asStateFlow()
 
     /** Live updates; runs only while the screen is visible and is cancelled otherwise. */
