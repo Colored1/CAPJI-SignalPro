@@ -13,6 +13,7 @@ import com.capji.signalpro.vpn.CapjiDnsVpnService
 import com.capji.signalpro.vpn.VpnState
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.async
+import kotlinx.coroutines.cancelAndJoin
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -91,8 +92,11 @@ class BoostViewModel(application: Application) : AndroidViewModel(application) {
 
     /** One tap: measure, pick the resolver, start the tunnel, then measure through it. */
     fun boost() {
-        if (job?.isActive == true) return
+        if (state.value.phase != BoostPhase.IDLE) return
+        // A speed test that is still running is replaced by the boost, which tests again.
+        val previous = job
         job = viewModelScope.launch {
+            previous?.cancelAndJoin()
             if (!network.isOnline()) {
                 mutable.update { it.copy(message = BoostMessage.OFFLINE) }
                 return@launch
@@ -107,8 +111,7 @@ class BoostViewModel(application: Application) : AndroidViewModel(application) {
             }
             mutable.update { it.copy(phase = BoostPhase.CONNECTING) }
             VpnState.clearError()
-            CapjiDnsVpnService.start(getApplication())
-            val status = withTimeoutOrNull(8_000) {
+            val status = if (!CapjiDnsVpnService.start(getApplication())) null else withTimeoutOrNull(8_000) {
                 VpnState.status.first { it.running || it.error != null }
             }
             if (status?.running != true) {
@@ -116,7 +119,12 @@ class BoostViewModel(application: Application) : AndroidViewModel(application) {
                 return@launch
             }
             measureThroughTunnel()
-            mutable.update { it.copy(phase = BoostPhase.ACTIVE) }
+            // The user may have stopped the tunnel from its notification meanwhile.
+            val running = VpnState.status.value.running
+            mutable.update {
+                if (running) it.copy(phase = BoostPhase.ACTIVE)
+                else it.copy(phase = BoostPhase.IDLE, afterMs = null)
+            }
         }
     }
 

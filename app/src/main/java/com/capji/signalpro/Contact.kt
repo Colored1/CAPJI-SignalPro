@@ -15,6 +15,7 @@ object Contact {
     const val TIKTOK = "https://tiktok.com/@c1fq_7"
     const val WHATSAPP = "https://wa.me/967772678571"
     const val CALL = "tel:$PHONE"
+    const val PRIVACY_POLICY = "https://github.com/Colored1/CAPJI-SignalPro/blob/main/PRIVACY_POLICY.md"
 
     /** Opens a link or the dialer. ACTION_DIAL needs no call permission. */
     fun open(context: Context, link: String): Boolean {

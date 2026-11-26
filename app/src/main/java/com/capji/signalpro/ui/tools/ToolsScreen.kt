@@ -66,6 +66,7 @@ import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.capji.signalpro.Contact
 import com.capji.signalpro.core.PasswordGenerator
 import com.capji.signalpro.core.Strength
 import com.capji.signalpro.core.WifiCredentials
@@ -95,6 +96,7 @@ fun ToolsScreen(viewModel: ToolsViewModel = viewModel()) {
     val t = LocalLang.current
     val state by viewModel.state.collectAsStateWithLifecycle()
     var showDisclosure by rememberSaveable { mutableStateOf(false) }
+    val context = LocalContext.current
     LaunchedEffect(Unit) { viewModel.prefillSsid() }
 
     ScreenColumn {
@@ -105,6 +107,11 @@ fun ToolsScreen(viewModel: ToolsViewModel = viewModel()) {
             CardTitle(t("الخصوصية", "Privacy"), Icons.Rounded.Shield, Capji.Emerald)
             Hint(t("كلمات المرور تبقى في الذاكرة فقط ولا تُحفظ أو تُرسل.", "Passwords stay in memory only; they are never saved or sent."))
             SecondaryButton(t("إفصاح VPN المحلي", "Local VPN disclosure"), { showDisclosure = true }, Modifier.fillMaxWidth())
+            SecondaryButton(
+                t("سياسة الخصوصية", "Privacy policy"),
+                { Contact.open(context, Contact.PRIVACY_POLICY) },
+                Modifier.fillMaxWidth(),
+            )
         }
         AboutCard()
     }

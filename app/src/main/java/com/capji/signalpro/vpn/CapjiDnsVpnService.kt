@@ -36,7 +36,7 @@ class CapjiDnsVpnService : VpnService() {
         // Also reached by always-on VPN and by system restarts: settings come from storage.
         val prefs = Prefs(this)
         val provider = prefs.selectedProvider()
-        // Must be posted before any early exit to satisfy startForegroundService().
+        // Posted first so that a system start (always-on VPN) is promoted in time.
         showNotification(provider, prefs.arabic)
         // The tunnel never starts unless the in-app disclosure was accepted.
         if (!prefs.disclosureAccepted) {
@@ -161,15 +161,20 @@ class CapjiDnsVpnService : VpnService() {
         private const val ACTION_STOP = "com.capji.signalpro.vpn.STOP"
         private const val NOTIFICATION_ID = 4101
 
-        /** Starts the tunnel, or switches its resolver if it is already running. */
-        fun start(context: Context) {
-            ContextCompat.startForegroundService(
-                context, Intent(context, CapjiDnsVpnService::class.java).setAction(ACTION_START),
-            )
-        }
+        /**
+         * Starts the tunnel, or switches its resolver if it is already running.
+         * Returns false when Android refuses, which happens if the app is in the background.
+         * A plain start is used on purpose: a refused foreground promotion then cannot
+         * crash the app, and the service still promotes itself in onStartCommand.
+         */
+        fun start(context: Context): Boolean = runCatching {
+            context.startService(Intent(context, CapjiDnsVpnService::class.java).setAction(ACTION_START))
+        }.isSuccess
 
         fun stop(context: Context) {
-            context.startService(Intent(context, CapjiDnsVpnService::class.java).setAction(ACTION_STOP))
+            runCatching {
+                context.startService(Intent(context, CapjiDnsVpnService::class.java).setAction(ACTION_STOP))
+            }
         }
     }
 }
