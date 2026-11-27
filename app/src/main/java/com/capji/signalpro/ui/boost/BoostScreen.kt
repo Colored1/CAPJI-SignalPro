@@ -273,7 +273,8 @@ private fun ImprovementCard(state: BoostUiState) {
             )
         }
         if (before != null && after != null) {
-            val difference = (before - after).roundToInt()
+            // Matches the two rounded figures shown above.
+            val difference = before.roundToInt() - after.roundToInt()
             Text(
                 when {
                     difference > 0 -> t("تحسّن ${ltr("$difference ms")} في كل طلب DNS", "$difference ms faster per DNS lookup")

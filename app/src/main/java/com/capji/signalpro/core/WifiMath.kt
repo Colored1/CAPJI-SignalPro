@@ -94,6 +94,10 @@ object WifiMath {
         return ChannelScore(channel, congestion, count)
     }
 
+    /** A router change is only worth suggesting when it lowers congestion noticeably. */
+    fun worthSwitching(current: ChannelScore, best: ChannelScore): Boolean =
+        current.congestion - best.congestion > 5
+
     /**
      * Candidate channels ranked best first.
      *

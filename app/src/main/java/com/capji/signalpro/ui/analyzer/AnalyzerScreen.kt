@@ -127,23 +127,31 @@ private fun RecommendationCard(state: AnalyzerUiState) {
     val own = state.accessPoints.firstOrNull { it.bssid.equals(state.ownBssid, ignoreCase = true) }
     val neighbours = state.accessPoints.filterNot { it.bssid.equals(state.ownBssid, ignoreCase = true) }
     val ownChannel = own?.takeIf { it.band == state.band }?.channel
+    val current = ownChannel?.let { WifiMath.score(state.band, it, neighbours) }
+    val keep = current != null && !WifiMath.worthSwitching(current, best)
+    val recommended = if (current != null && keep) current.channel else best.channel
     GlassCard(accent = Capji.Emerald) {
         CardTitle(t("القناة الموصى بها", "Recommended channel"), Icons.Rounded.ThumbUp, Capji.Emerald)
         Text(
-            t("القناة ${best.channel}", "Channel ${best.channel}"),
+            t("القناة $recommended", "Channel $recommended"),
             style = MaterialTheme.typography.displaySmall,
             fontWeight = FontWeight.Black,
             color = Capji.Emerald,
         )
-        if (ownChannel != null) {
-            val current = WifiMath.score(state.band, ownChannel, neighbours)
+        if (current != null) {
             Hint(
                 t(
-                    "قناتك الحالية $ownChannel بازدحام ${current.congestion}%",
-                    "Your current channel $ownChannel is ${current.congestion}% congested",
+                    "قناتك الحالية ${current.channel} بازدحام ${current.congestion}%",
+                    "Your current channel ${current.channel} is ${current.congestion}% congested",
                 ),
                 Capji.Text,
             )
+            if (keep) {
+                Hint(
+                    t("قناتك الحالية مناسبة، لا حاجة لتغييرها.", "Your current channel is fine; no change needed."),
+                    Capji.Emerald,
+                )
+            }
         }
         ranked.forEach { ScoreRow(it) }
         Hint(
