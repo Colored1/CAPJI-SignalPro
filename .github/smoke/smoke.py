@@ -64,7 +64,7 @@ def all_text():
 
 def swipe(up=True):
     start, end = (1750, 850) if up else (850, 1750)
-    sh(f"input swipe 540 {start} 540 {end} 500")
+    sh(f"input swipe 30 {start} 30 {end} 500")
     time.sleep(1.5)
 
 
@@ -82,7 +82,7 @@ def scroll_to(label, exact=False, tries=10):
 
 def top():
     for _ in range(7):
-        sh("input swipe 540 700 540 2000 120")
+        sh("input swipe 30 700 30 2000 120")  # left margin: never lands on a button
     time.sleep(1.5)
 
 
@@ -170,7 +170,8 @@ def run():
                 count = int(node.get("text"))
     check("tunnel answered DNS queries", count and count > 0, f"count={count}")
     shot("05-boost-card")
-    scroll_to("اختبر الآن")
+    if tap("اختبر الآن", scroll=True):  # measures again while the tunnel is running
+        time.sleep(15)
     swipe()
     shot("06-dns-list")
     text = all_text()
@@ -268,7 +269,12 @@ def run():
     top()
     shot("20-english-boost")
     check("boost still on in English", wait_for("Boost is on", 15))
-    node = find("ms DNS time") or find("Boost Now", exact=True) or find("ON", exact=True)
+    # A UI node without children is falsy, so test against None instead of chaining with "or".
+    node = None
+    for label, exact in (("ms DNS time", False), ("ON", True)):
+        node = find(label, exact)
+        if node is not None:
+            break
     if node is not None:
         tap_node(node)
     time.sleep(5)
@@ -287,6 +293,8 @@ except Exception as error:  # report whatever was collected
     check("script", False, repr(error))
 
 log = adb("logcat", "-d", timeout=120)
+with open(f"{SHOTS}/timing.txt", "w") as handle:
+    handle.write("\n".join(l for l in log.splitlines() if "CapjiTiming" in l))
 with open(f"{SHOTS}/capji-log.txt", "w") as handle:
     handle.write("\n".join(l for l in log.splitlines() if re.search(r"capji|AndroidRuntime", l, re.I))[-60000:])
 crashes = []
