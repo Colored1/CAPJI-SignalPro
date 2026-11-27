@@ -23,6 +23,7 @@ import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.drawText
 import androidx.compose.ui.text.rememberTextMeasurer
+import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -88,7 +89,7 @@ fun ChannelGraph(band: Band, accessPoints: List<AccessPoint>, ownBssid: String?)
             ) {
                 val axisY = size.height - 22.dp.toPx()
                 val top = 16.dp.toPx()
-                val labelStyle = TextStyle(color = Capji.Muted, fontSize = 10.sp)
+                val labelStyle = TextStyle(color = Capji.Muted, fontSize = 10.sp, textDirection = TextDirection.Ltr)
                 fun x(frequency: Float) = axis.position(frequency) * size.width
                 fun y(rssi: Int) =
                     axisY - ((rssi + 100) / 70f).coerceIn(0.04f, 1f) * (axisY - top) * grow.value

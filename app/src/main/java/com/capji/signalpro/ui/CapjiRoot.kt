@@ -111,6 +111,7 @@ private fun MainScreen(viewModel: MainViewModel) {
     ) {
         Scaffold(
             containerColor = Color.Transparent,
+            contentColor = Capji.Text,
             topBar = {
                 TopAppBar(
                     title = {

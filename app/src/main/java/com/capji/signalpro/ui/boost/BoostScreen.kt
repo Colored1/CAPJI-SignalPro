@@ -76,6 +76,7 @@ import com.capji.signalpro.ui.components.PrimaryButton
 import com.capji.signalpro.ui.components.ScreenColumn
 import com.capji.signalpro.ui.components.SecondaryButton
 import com.capji.signalpro.ui.components.StatTile
+import com.capji.signalpro.ui.components.ltr
 import com.capji.signalpro.ui.components.openSystemScreen
 import com.capji.signalpro.ui.i18n.Lang
 import com.capji.signalpro.ui.i18n.LocalLang
@@ -213,7 +214,7 @@ private fun OrbContent(state: BoostUiState) {
                 fontWeight = FontWeight.Black,
                 color = Color.White,
             )
-            Text(t("ms زمن DNS", "ms DNS time"), color = Capji.Emerald, fontWeight = FontWeight.Bold)
+            Text(t("زمن DNS (ms)", "ms DNS time"), color = Capji.Emerald, fontWeight = FontWeight.Bold)
         } else {
             Icon(
                 Icons.Rounded.Bolt,
@@ -275,9 +276,9 @@ private fun ImprovementCard(state: BoostUiState) {
             val difference = (before - after).roundToInt()
             Text(
                 when {
-                    difference > 0 -> t("تحسّن $difference ms في كل طلب DNS", "$difference ms faster per DNS lookup")
+                    difference > 0 -> t("تحسّن ${ltr("$difference ms")} في كل طلب DNS", "$difference ms faster per DNS lookup")
                     difference < 0 -> t(
-                        "خادم مزودك أسرع بمقدار ${abs(difference)} ms على هذه الشبكة",
+                        "خادم مزودك أسرع بمقدار ${ltr("${abs(difference)} ms")} على هذه الشبكة",
                         "Your ISP resolver is ${abs(difference)} ms faster on this network",
                     )
                     else -> t("لا فرق يُذكر على هذه الشبكة", "No measurable difference on this network")
@@ -348,7 +349,7 @@ private fun DnsListCard(state: BoostUiState, viewModel: BoostViewModel) {
         }
         state.providerResult?.let {
             Hint(
-                t("خادم مزود الخدمة", "ISP resolver") + " ${it.provider.primary}: ${ms(it.latencyMs)} · " +
+                t("خادم مزود الخدمة", "ISP resolver") + " ${ltr("${it.provider.primary}: ${ms(it.latencyMs)}")} · " +
                     t("فقدان ${it.lossPercent}%", "${it.lossPercent}% loss"),
             )
         }
@@ -385,7 +386,7 @@ private fun DnsRow(
             RadioButton(selected, onClick = { onSelect(provider.id) })
             Column(Modifier.weight(1f)) {
                 val name = if (provider.id == DnsServers.CUSTOM_ID) t("مخصص", "Custom") else provider.name
-                Text((rank?.let { "$it. " } ?: "") + name, fontWeight = FontWeight.Bold)
+                Text(ltr((rank?.let { "$it. " } ?: "") + name), fontWeight = FontWeight.Bold)
                 Text(
                     provider.servers.joinToString(" / "),
                     color = Capji.Muted,
@@ -394,7 +395,7 @@ private fun DnsRow(
             }
             Column(horizontalAlignment = Alignment.End) {
                 Text(
-                    if (result != null && latency == null) t("لا استجابة", "No reply") else ms(latency),
+                    if (result != null && latency == null) t("لا استجابة", "No reply") else ltr(ms(latency)),
                     color = latency?.let(Capji::latency) ?: Capji.Muted,
                     fontWeight = FontWeight.Black,
                 )
