@@ -104,6 +104,9 @@ fun Hint(text: String, color: Color = Capji.Muted) {
 /** Addresses and numbers keep left-to-right order inside Arabic layouts. */
 val LtrStyle = TextStyle(textDirection = TextDirection.Ltr)
 
+/** Wraps a number with its unit so right-to-left text cannot reorder it. */
+fun ltr(value: String): String = "\u2066$value\u2069"
+
 @Composable
 fun InfoRow(label: String, value: String?) {
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {

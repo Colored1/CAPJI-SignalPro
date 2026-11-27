@@ -1,9 +1,11 @@
 package com.capji.signalpro.ui.theme
 
+import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Typography
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 
@@ -69,6 +71,8 @@ fun CapjiTheme(content: @Composable () -> Unit) {
             titleLarge = base.titleLarge.copy(fontWeight = FontWeight.Bold),
             titleMedium = base.titleMedium.copy(fontWeight = FontWeight.Bold),
         ),
-        content = content,
-    )
+    ) {
+        // Text and icons outside a Material Surface would otherwise be black.
+        CompositionLocalProvider(LocalContentColor provides Capji.Text, content = content)
+    }
 }

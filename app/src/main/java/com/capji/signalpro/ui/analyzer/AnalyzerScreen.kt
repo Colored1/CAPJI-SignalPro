@@ -51,6 +51,7 @@ import com.capji.signalpro.ui.components.PrimaryButton
 import com.capji.signalpro.ui.components.ScreenColumn
 import com.capji.signalpro.ui.components.SecondaryButton
 import com.capji.signalpro.ui.components.StatTile
+import com.capji.signalpro.ui.components.ltr
 import com.capji.signalpro.ui.i18n.Lang
 import com.capji.signalpro.ui.i18n.LocalLang
 import com.capji.signalpro.ui.theme.Capji
@@ -85,7 +86,7 @@ private fun ChannelCard(state: AnalyzerUiState, viewModel: AnalyzerViewModel) {
                     FilterChip(
                         selected = state.band == band,
                         onClick = { viewModel.selectBand(band) },
-                        label = { Text("${band.label} (${state.accessPoints.count { it.band == band }})") },
+                        label = { Text(ltr("${band.label} (${state.accessPoints.count { it.band == band }})")) },
                     )
                 }
         }

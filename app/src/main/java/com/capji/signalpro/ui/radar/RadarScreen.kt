@@ -55,6 +55,7 @@ import com.capji.signalpro.ui.components.InfoRow
 import com.capji.signalpro.ui.components.LocationCard
 import com.capji.signalpro.ui.components.PrimaryButton
 import com.capji.signalpro.ui.components.ScreenColumn
+import com.capji.signalpro.ui.components.ltr
 import com.capji.signalpro.ui.i18n.Lang
 import com.capji.signalpro.ui.i18n.LocalLang
 import com.capji.signalpro.ui.theme.Capji
@@ -115,12 +116,12 @@ fun RadarScreen(viewModel: RadarViewModel = viewModel()) {
 
         GlassCard {
             CardTitle(t("المرسام الحي", "Live oscilloscope"), Icons.Rounded.ShowChart)
-            Hint("RSSI · " + (telemetry.rssi?.let { "$it dBm" } ?: "—"))
+            Hint("RSSI · " + (telemetry.rssi?.let { ltr("$it dBm") } ?: "—"))
             Oscilloscope(state.rssiHistory, -95f, -30f, Capji.Cyan, markLoss = false)
             val last = state.pingHistory.lastOrNull()
             Hint(
                 t("بينج الراوتر", "Router ping") + " · " +
-                    (last?.let { "${it.roundToInt()} ms" } ?: t("لا استجابة", "no reply")),
+                    (last?.let { ltr("${it.roundToInt()} ms") } ?: t("لا استجابة", "no reply")),
             )
             val peak = state.pingHistory.filterNotNull().maxOrNull() ?: 0f
             Oscilloscope(state.pingHistory, 0f, maxOf(50f, peak * 1.2f), Capji.Emerald, markLoss = true)
@@ -212,9 +213,11 @@ private fun RoomBar(room: RoomReading, best: Boolean, onDelete: (String) -> Unit
             Column(Modifier.weight(1f)) {
                 Text(room.name + if (best) "  ★" else "", fontWeight = FontWeight.Bold)
                 Hint(
-                    "${room.rssi} dBm · ${room.quality}% · ${room.band}" +
-                        (room.linkSpeedMbps?.let { " · $it Mbps" } ?: "") +
-                        (room.ssid?.let { " · $it" } ?: ""),
+                    ltr(
+                        "${room.rssi} dBm · ${room.quality}% · ${room.band}" +
+                            (room.linkSpeedMbps?.let { " · $it Mbps" } ?: "") +
+                            (room.ssid?.let { " · $it" } ?: ""),
+                    ),
                 )
             }
             IconButton(onClick = { onDelete(room.name) }) {
