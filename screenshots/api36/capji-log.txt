@@ -1,442 +1,427 @@
-T_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:40.467   646  1884 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:40.467   646  1884 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:41.124  5376  5376 D AndroidRuntime: Shutting down VM
-11-27 06:31:41.470   646  1884 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:41.470   646  1884 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:42.506   646  1090 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:42.506   646  1090 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:43.587   646  1850 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:43.587   646  1850 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:44.585  5625  5625 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:31:44.590  5625  5625 I AndroidRuntime: Using default boot image
-11-27 06:31:44.590  5625  5625 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:31:44.602   646   905 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:44.602   646   905 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:44.702  5625  5625 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:31:45.650   646  1884 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:45.650   646  1884 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:46.201  5625  5625 D AndroidRuntime: Shutting down VM
-11-27 06:31:46.716   646  1850 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:46.716   646  1850 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:47.765   646  1850 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:47.765   646  1850 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:48.811   646  1366 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:48.813   646  1366 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:48.900  5653  5653 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:31:48.906  5653  5653 I AndroidRuntime: Using default boot image
-11-27 06:31:48.907  5653  5653 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:31:49.024  5653  5653 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:31:49.843   646  1850 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:49.843   646  1850 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:50.541  5653  5653 D AndroidRuntime: Shutting down VM
-11-27 06:31:50.868   646  1850 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:50.868   646  1850 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:51.944   646  1845 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:51.944   646  1845 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:52.956   646  1850 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:52.956   646  1850 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:53.757   646  1366 I AppsFilter: interaction: PackageSetting{70ee01a com.capji.signalpro/10216} -> PackageSetting{de6a9b9 com.google.android.apps.photos/10159} BLOCKED
-11-27 06:31:53.924  5692  5692 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:31:53.929  5692  5692 I AndroidRuntime: Using default boot image
-11-27 06:31:53.929  5692  5692 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:31:53.963   646  1884 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:53.965   646  1884 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:54.156  5692  5692 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:31:55.055   646  1366 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:55.055   646  1366 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:55.654   646   701 I AppsFilter: interaction: PackageSetting{70ee01a com.capji.signalpro/10216} -> PackageSetting{5e8cd0b com.google.android.apps.photos/10159} BLOCKED
-11-27 06:31:56.147   646   905 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:56.147   646   905 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:57.213   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:57.213   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:58.267   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:58.267   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:31:58.754  5692  5692 D AndroidRuntime: Shutting down VM
-11-27 06:31:59.309   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:31:59.309   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:00.392   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:00.392   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:01.408   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:01.408   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:02.271  5767  5767 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:32:02.278  5767  5767 I AndroidRuntime: Using default boot image
-11-27 06:32:02.278  5767  5767 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:32:02.402  5767  5767 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:32:02.415   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:02.415   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:03.457   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:03.457   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:04.513   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:04.513   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:04.550  5767  5767 D AndroidRuntime: Shutting down VM
-11-27 06:32:05.522   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:05.523   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:05.966  5790  5790 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:32:05.970  5790  5790 I AndroidRuntime: Using default boot image
-11-27 06:32:05.970  5790  5790 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:32:06.184  5790  5790 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:32:06.554   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:06.554   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:07.583   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:07.583   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:08.657   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:08.657   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:09.720   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:09.720   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:10.774   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:10.774   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:11.788   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:11.788   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:12.063  5790  5790 D AndroidRuntime: Shutting down VM
-11-27 06:32:12.832   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:12.833   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:13.842   646   905 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:13.844   646   905 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:14.938   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:14.938   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:15.547  5839  5839 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:32:15.552  5839  5839 I AndroidRuntime: Using default boot image
-11-27 06:32:15.552  5839  5839 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:32:15.992   646  1850 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:15.992   646  1850 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:16.008  5839  5839 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:32:17.023   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:17.023   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:17.324  2911  5869 I CapjiTiming: protect=0 server=1.1.1.1
-11-27 06:32:17.326  2911  5868 I CapjiTiming: protect=0 server=1.1.1.1
-11-27 06:32:17.401  2911  5868 I CapjiTiming: queued=2 relay=74
-11-27 06:32:17.408  2911  5869 I CapjiTiming: queued=0 relay=77
-11-27 06:32:18.113   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:18.113   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:19.144   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:19.144   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:19.175  5839  5839 D AndroidRuntime: Shutting down VM
-11-27 06:32:20.258   646  1849 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:20.258   646  1849 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:20.415   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:20.415   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:21.107   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:21.107   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:21.276   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:21.276   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:21.810   646  1849 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:21.810   646  1849 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:22.367   646  1849 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:22.367   646  1849 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:22.498   646  1849 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:22.498   646  1849 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:23.196   646  1849 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:23.196   646  1849 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:23.422   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:23.422   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:23.873   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:23.873   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:24.471   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:24.471   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:24.651   646  1849 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:24.651   646  1849 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:25.387   646  1849 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:25.387   646  1849 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:25.554   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:25.554   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:26.614   646  1849 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:26.614   646  1849 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:27.677   646  1849 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:27.677   646  1849 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:28.771   646  1849 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:28.771   646  1849 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:29.826   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:29.826   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:30.951   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:30.951   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:32.039   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:32.039   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:33.159   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:33.168   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:33.421  5905  5905 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:32:33.426  5905  5905 I AndroidRuntime: Using default boot image
-11-27 06:32:33.426  5905  5905 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:32:33.788  5905  5905 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:32:34.220   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:34.220   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:35.370   646  1313 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:35.370   646  1313 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:36.439   646  1884 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:36.439   646  1884 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:36.493  2911  2925 I capji.signalpro: Background concurrent mark compact GC freed 5464KB AllocSpace bytes, 48(1024KB) LOS objects, 49% free, 6618KB/12MB, paused 231us,1.764ms total 125.818ms
-11-27 06:32:37.110  5905  5905 D AndroidRuntime: Shutting down VM
-11-27 06:32:37.516   646  1090 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:37.516   646  1090 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:38.681   646  1313 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:38.681   646  1313 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:39.716   646  1313 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:39.716   646  1313 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:40.862   646  1313 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:40.863   646  1313 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:41.254  5939  5939 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:32:41.261  5939  5939 I AndroidRuntime: Using default boot image
-11-27 06:32:41.261  5939  5939 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:32:41.413  5939  5939 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:32:41.950   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:41.950   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:42.989   646  1884 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:42.989   646  1884 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:44.042   646  1884 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:44.043   646  1884 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:44.674  5939  5939 D AndroidRuntime: Shutting down VM
-11-27 06:32:45.102   646   905 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:45.102   646   905 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:45.834   646   905 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:45.835   646   916 I WifiScanningService: Registering listener= com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@42ae4d0 uid=1000 packageName=com.capji.signalpro workSource=WorkSource{1000}
-11-27 06:32:45.835   646   916 I WifiScanningService: start scan: ClientInfo[uid=1000, package=com.capji.signalpro, attributionTag=null, com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@42ae4d0] package com.capji.signalpro AttributionTag null
-11-27 06:32:45.835   646   916 I WifiScanningService: addSingleScanRequest: ClientInfo[uid=1000, package=com.capji.signalpro, attributionTag=null, com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@42ae4d0],WorkSource{10216 com.capji.signalpro}, ScanSettings {  type:LOW LATENCY band:24Ghz & 5Ghz (DFS incl) & 6Ghz & 60Ghz ignoreLocationSettings:false period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 rnrSetting:0 6GhzPscOnlyEnabled:true channels:[  ]  } 
-11-27 06:32:46.130   646   905 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:46.130   646   905 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:49.805   646   916 I WifiScanningService: singleScanResults: ClientInfo[uid=1000, package=com.capji.signalpro, attributionTag=null, com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@42ae4d0],results=1
-11-27 06:32:49.806   646   916 I WifiScanningService: Unregistering listener= com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@42ae4d0 uid=1000 packageName=com.capji.signalpro workSource=WorkSource{1000}
-11-27 06:32:49.965   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:49.967   646   726 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:32:49.967   646   726 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:32:50.606  5968  5968 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:32:50.610  5968  5968 I AndroidRuntime: Using default boot image
-11-27 06:32:50.610  5968  5968 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:32:50.799  5968  5968 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:32:52.329  5968  5968 D AndroidRuntime: Shutting down VM
-11-27 06:33:00.149  2911  2925 I capji.signalpro: Background concurrent mark compact GC freed 5388KB AllocSpace bytes, 38(760KB) LOS objects, 49% free, 7046KB/13MB, paused 172us,2.188ms total 108.574ms
-11-27 06:33:02.122  2911  6017 I CapjiTiming: protect=0 server=1.1.1.1
-11-27 06:33:02.130  2911  6018 I CapjiTiming: protect=0 server=1.1.1.1
-11-27 06:33:02.149  2911  6018 I CapjiTiming: queued=0 relay=23
-11-27 06:33:02.160  2911  6017 I CapjiTiming: queued=0 relay=38
-11-27 06:33:05.440  2911  6034 I CapjiTiming: protect=0 server=1.1.1.1
-11-27 06:33:05.449  2911  6035 I CapjiTiming: protect=0 server=1.1.1.1
-11-27 06:33:05.480  2911  6034 I CapjiTiming: queued=17 relay=40
-11-27 06:33:05.626  2911  6035 I CapjiTiming: queued=9 relay=177
-11-27 06:33:37.553  6101  6101 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:33:37.556  6101  6101 I AndroidRuntime: Using default boot image
-11-27 06:33:37.556  6101  6101 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:33:37.716  6101  6101 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:33:40.036  6101  6101 D AndroidRuntime: Shutting down VM
-11-27 06:33:41.247  6122  6122 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:33:41.252  6122  6122 I AndroidRuntime: Using default boot image
-11-27 06:33:41.252  6122  6122 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:33:41.524  6122  6122 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:33:44.421  6122  6122 D AndroidRuntime: Shutting down VM
-11-27 06:33:48.373  6147  6147 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:33:48.377  6147  6147 I AndroidRuntime: Using default boot image
-11-27 06:33:48.377  6147  6147 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:33:48.577  6147  6147 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:33:52.337  6147  6147 D AndroidRuntime: Shutting down VM
-11-27 06:33:56.092  6171  6171 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:33:56.123  6171  6171 I AndroidRuntime: Using default boot image
-11-27 06:33:56.137  6171  6171 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:33:56.344  6171  6171 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:33:58.738  2911  2925 I capji.signalpro: Background concurrent mark compact GC freed 5992KB AllocSpace bytes, 46(920KB) LOS objects, 49% free, 7150KB/13MB, paused 231us,26.107ms total 153.732ms
-11-27 06:34:00.067  6171  6171 D AndroidRuntime: Shutting down VM
-11-27 06:34:09.842  6240  6240 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:34:09.896  6240  6240 I AndroidRuntime: Using default boot image
-11-27 06:34:09.896  6240  6240 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:34:10.113  6240  6240 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:34:11.853  6240  6240 D AndroidRuntime: Shutting down VM
-11-27 06:34:13.974  2911  6269 I CapjiTiming: protect=0 server=1.1.1.1
-11-27 06:34:14.076  2911  6269 I CapjiTiming: queued=56 relay=102
-11-27 06:34:15.290  6272  6272 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:34:15.306  6272  6272 I AndroidRuntime: Using default boot image
-11-27 06:34:15.306  6272  6272 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:34:15.555  6272  6272 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:34:18.002  6272  6272 D AndroidRuntime: Shutting down VM
-11-27 06:34:21.451  6296  6296 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:34:21.464  6296  6296 I AndroidRuntime: Using default boot image
-11-27 06:34:21.464  6296  6296 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:34:21.654  6296  6296 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:34:23.450  6296  6296 D AndroidRuntime: Shutting down VM
-11-27 06:34:26.731  6318  6318 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:34:26.750  6318  6318 I AndroidRuntime: Using default boot image
-11-27 06:34:26.750  6318  6318 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:34:26.948  6318  6318 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:34:29.048  6318  6318 D AndroidRuntime: Shutting down VM
-11-27 06:34:30.278   646  1846 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
-11-27 06:34:30.278   646  1846 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
-11-27 06:34:36.271  6346  6346 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:34:36.307  6346  6346 I AndroidRuntime: Using default boot image
-11-27 06:34:36.307  6346  6346 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:34:36.688  6346  6346 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:34:38.787  6346  6346 D AndroidRuntime: Shutting down VM
-11-27 06:34:42.216  6371  6371 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:34:42.220  6371  6371 I AndroidRuntime: Using default boot image
-11-27 06:34:42.220  6371  6371 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:34:42.377  6371  6371 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:34:45.458  6371  6371 D AndroidRuntime: Shutting down VM
-11-27 06:34:49.424  6395  6395 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:34:49.432  6395  6395 I AndroidRuntime: Using default boot image
-11-27 06:34:49.432  6395  6395 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:34:49.669  6395  6395 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:34:52.790  6395  6395 D AndroidRuntime: Shutting down VM
-11-27 06:34:57.604  2911  2925 I capji.signalpro: Background concurrent mark compact GC freed 6152KB AllocSpace bytes, 2(68KB) LOS objects, 49% free, 7954KB/15MB, paused 86us,5.876ms total 164.658ms
-11-27 06:34:58.312   646  1846 W NotificationService: Toast already killed. pkg=com.capji.signalpro token=android.os.BinderProxy@958e00c
-11-27 06:34:59.602  6478  6478 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:34:59.606  6478  6478 I AndroidRuntime: Using default boot image
-11-27 06:34:59.606  6478  6478 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:34:59.827  6478  6478 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:35:03.045  6478  6478 D AndroidRuntime: Shutting down VM
-11-27 06:35:09.180  6508  6508 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:35:09.184  6508  6508 I AndroidRuntime: Using default boot image
-11-27 06:35:09.185  6508  6508 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:35:09.434  6508  6508 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:35:11.542  6508  6508 D AndroidRuntime: Shutting down VM
-11-27 06:35:15.131  6532  6532 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:35:15.136  6532  6532 I AndroidRuntime: Using default boot image
-11-27 06:35:15.142  6532  6532 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:35:15.337  6532  6532 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:35:16.864  6532  6532 D AndroidRuntime: Shutting down VM
-11-27 06:35:19.895  1613  1697 V MediaProvider: Created relation b/w 1 and com.capji.signalpro::0
-11-27 06:35:19.900  1613  1642 I MediaProvider: Open with lower FS for /storage/emulated/0/Pictures/CAPJI/.pending-1796366119-CAPJI-WiFi-1795761319677.png. Uid: 10216
-11-27 06:35:20.382  1613  1642 D MediaProvider: Moving /storage/emulated/0/Pictures/CAPJI/.pending-1796366119-CAPJI-WiFi-1795761319677.png to /storage/emulated/0/Pictures/CAPJI/CAPJI-WiFi-1795761319677.png
-11-27 06:35:20.545  1613  1697 V MediaProvider: Deleted backup of old file path: /storage/emulated/0/Pictures/CAPJI/.pending-1796366119-CAPJI-WiFi-1795761319677.png
-11-27 06:35:24.605  6563  6563 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:35:24.614  6563  6563 I AndroidRuntime: Using default boot image
-11-27 06:35:24.615  6563  6563 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:35:24.736  6563  6563 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:35:26.290  6563  6563 D AndroidRuntime: Shutting down VM
-11-27 06:35:27.645  6581  6581 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:35:27.648  6581  6581 I AndroidRuntime: Using default boot image
-11-27 06:35:27.648  6581  6581 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:35:27.849  6581  6581 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:35:29.429  6581  6581 D AndroidRuntime: Shutting down VM
-11-27 06:35:30.787  1006  1060 V WindowManagerShell: Transition requested (#14): android.os.BinderProxy@b76649d TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 effectiveUid=10216 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.capji.signalpro/.MainActivity } baseActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} topActivity=ComponentInfo{com.android.intentresolver/com.android.intentresolver.ChooserActivity} origActivity=null realActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} numActivities=2 lastActiveTime=476344 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@27edd12} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{54bcce3 com.android.intentresolver.ChooserActivityLauncher} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=true isActivityStackTransparent=false lastNonFullscreenBounds=Rect(276, 692 - 804, 1772) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2400) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 14 }
-11-27 06:35:31.184  6603  6603 I ChooserHelper: ActivityModel(intent=Intent { act=android.intent.action.CHOOSER flg=0x800001 xflg=0x4 cmp=com.android.intentresolver/.ChooserActivityLauncher clip={text/uri-list hasLabel(5) {U(content)}} (has extras) }, launchedFromUid=10216, launchedFromPackage=com.capji.signalpro, referrer=android-app://com.capji.signalpro, isTaskRoot=false)
-11-27 06:35:33.242   646   667 V WindowManager: Sent Transition (#14) createdAt=11-27 06:35:30.782 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 effectiveUid=10216 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.capji.signalpro/.MainActivity } baseActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} topActivity=ComponentInfo{com.android.intentresolver/com.android.intentresolver.ChooserActivity} origActivity=null realActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} numActivities=2 lastActiveTime=476344 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{df4af2a Task{f35915b #8 type=standard A=10216:com.capji.signalpro}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{11c845f com.android.intentresolver.ChooserActivityLauncher} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=true isActivityStackTransparent=false lastNonFullscreenBounds=Rect(276, 692 - 804, 1772) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2400) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 14 }
-11-27 06:35:38.652   646   766 I ImeTracker: com.capji.signalpro:50ceb9f4: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
-11-27 06:35:38.736  1487  1487 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.capji.signalpro, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
-11-27 06:35:38.787   646  1850 W PackageConfigPersister: App-specific configuration not found for packageName: com.capji.signalpro and userId: 0
-11-27 06:35:38.956  2911  2911 I ImeTracker: com.capji.signalpro:50ceb9f4: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
-11-27 06:35:40.865  6671  6671 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:35:40.869  6671  6671 I AndroidRuntime: Using default boot image
-11-27 06:35:40.869  6671  6671 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:35:41.204  6671  6671 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:35:42.619  6671  6671 D AndroidRuntime: Shutting down VM
-11-27 06:35:46.204  6698  6698 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:35:46.215  6698  6698 I AndroidRuntime: Using default boot image
-11-27 06:35:46.215  6698  6698 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:35:46.383  6698  6698 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:35:49.096  6698  6698 D AndroidRuntime: Shutting down VM
-11-27 06:35:50.324   646  1850 D CoreBackPreview: Window{ebc8ca6 u0 com.capji.signalpro/com.capji.signalpro.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@bf85400, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
-11-27 06:35:50.324   646  1850 D CoreBackPreview: Window{ebc8ca6 u0 com.capji.signalpro/com.capji.signalpro.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@a53f439, mPriority=0, mIsAnimationCallback=true, mOverrideBehavior=0}
-11-27 06:35:51.505   646   766 I ImeTracker: com.capji.signalpro:bdd4a4ed: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
-11-27 06:35:51.537  1487  1487 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.capji.signalpro, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
-11-27 06:35:51.541   646  1873 W PackageConfigPersister: App-specific configuration not found for packageName: com.capji.signalpro and userId: 0
-11-27 06:35:51.653  2911  2911 I ImeTracker: com.capji.signalpro:bdd4a4ed: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
-11-27 06:35:56.298   591  2764 I CameraService: CameraService::connect call (PID 2911 "com.capji.signalpro", camera ID 10) and Camera API version 2
-11-27 06:35:56.354   591  2764 I Camera2ClientBase: Camera 10: Opened. Client: com.capji.signalpro (PID 2911, UID 10216)
-11-27 06:35:58.538  2911  6724 W capji.signalpro: Verification of void com.google.android.gms.internal.mlkit_vision_common.zzhe.configure(com.google.firebase.encoders.config.EncoderConfig) took 605.930ms (1630.55 bytecodes/s) (0B arena alloc)
-11-27 06:35:58.605  2911  6739 D nativeloader: Load /data/app/~~F0_N68qKaU5AOihKVETN1A==/com.capji.signalpro-gneWDivfvnf9B5rqBHlRDw==/base.apk!/lib/x86_64/libbarhopper_v3.so using class loader ns clns-9 (caller=/data/app/~~F0_N68qKaU5AOihKVETN1A==/com.capji.signalpro-gneWDivfvnf9B5rqBHlRDw==/base.apk!classes13.dex): ok
-11-27 06:36:00.055  2911  2925 I capji.signalpro: Background concurrent mark compact GC freed 5614KB AllocSpace bytes, 2(104KB) LOS objects, 49% free, 11MB/22MB, paused 458us,6.606ms total 1.170s
-11-27 06:36:15.384  6754  6754 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:36:15.387  6754  6754 I AndroidRuntime: Using default boot image
-11-27 06:36:15.388  6754  6754 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:36:15.832  6754  6754 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:36:18.927  2911  2911 W capji.signalpro: Verification of void androidx.core.view.ViewCompat$AccessibilityViewProperty.<init>(int, java.lang.Class, int) took 120.471ms (41.50 bytecodes/s) (0B arena alloc)
-11-27 06:36:19.144  6754  6754 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@e2cd; boundsInParent: Rect(0, 0 - 1080, 2209); boundsInScreen: Rect(0, 128 - 1080, 2337); boundsInWindow: Rect(0, 128 - 1080, 2337); packageName: com.capji.signalpro; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
-11-27 06:36:19.783  6754  6754 D AndroidRuntime: Shutting down VM
-11-27 06:36:21.619   646  1884 D CoreBackPreview: Window{ebc8ca6 u0 com.capji.signalpro/com.capji.signalpro.MainActivity}: Setting back callback null
-11-27 06:36:21.770  2911  2948 E BufferQueueProducer: [7ef38b9 SurfaceView[com.capji.signalpro/com.capji.signalpro.MainActivity]#3(BLAST Consumer)3](id:b5f00000005,api:4,p:591,c:2911) queueBuffer: BufferQueue has been abandoned
-11-27 06:36:21.773  2911  2948 E BufferQueueProducer: [7ef38b9 SurfaceView[com.capji.signalpro/com.capji.signalpro.MainActivity]#3(BLAST Consumer)3](id:b5f00000005,api:4,p:591,c:2911) dequeueBuffer: BufferQueue has been abandoned
-11-27 06:36:21.774  2911  3536 E BufferQueueProducer: [7ef38b9 SurfaceView[com.capji.signalpro/com.capji.signalpro.MainActivity]#3(BLAST Consumer)3](id:b5f00000005,api:4,p:591,c:2911) cancelBuffer: BufferQueue has been abandoned
-11-27 06:36:21.798  2911  2948 E BufferQueueProducer: [7ef38b9 SurfaceView[com.capji.signalpro/com.capji.signalpro.MainActivity]#3(BLAST Consumer)3](id:b5f00000005,api:4,p:591,c:2911) cancelBuffer: BufferQueue has been abandoned
-11-27 06:36:21.799  2911  3536 E BufferQueueProducer: [7ef38b9 SurfaceView[com.capji.signalpro/com.capji.signalpro.MainActivity]#3(BLAST Consumer)3](id:b5f00000005,api:4,p:591,c:2911) cancelBuffer: BufferQueue has been abandoned
-11-27 06:36:22.144   646   766 I ImeTracker: com.capji.signalpro:fb5bf954: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
-11-27 06:36:22.248  1487  1487 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.capji.signalpro, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
-11-27 06:36:22.253  2911  2911 I ImeTracker: com.capji.signalpro:fb5bf954: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
-11-27 06:36:22.258   646   905 W PackageConfigPersister: App-specific configuration not found for packageName: com.capji.signalpro and userId: 0
-11-27 06:36:22.260  2911  3723 W capji.signalpro: Long monitor contention with owner CameraX-core_camera_0 (6722) at void android.hardware.camera2.impl.CameraDeviceImpl.close()(CameraDeviceImpl.java:1800) waiters=0 in void android.hardware.camera2.impl.CameraDeviceImpl$CameraDeviceCallbacks.onCaptureStarted(android.hardware.camera2.impl.CaptureResultExtras, long) for 475ms
-11-27 06:36:24.293  6780  6780 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:36:24.297  6780  6780 I AndroidRuntime: Using default boot image
-11-27 06:36:24.298  6780  6780 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:36:24.573  6780  6780 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:36:26.162  6780  6780 D AndroidRuntime: Shutting down VM
-11-27 06:36:29.783  6803  6803 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:36:29.787  6803  6803 I AndroidRuntime: Using default boot image
-11-27 06:36:29.787  6803  6803 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:36:29.954  6803  6803 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:36:33.199  6803  6803 D AndroidRuntime: Shutting down VM
-11-27 06:36:36.565  6827  6827 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:36:36.570  6827  6827 I AndroidRuntime: Using default boot image
-11-27 06:36:36.570  6827  6827 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:36:36.708  6827  6827 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:36:38.611  6827  6827 D AndroidRuntime: Shutting down VM
-11-27 06:36:39.750   646  1850 D CoreBackPreview: startBackNavigation currentTask=Task{f35915b #8 type=standard A=10216:com.capji.signalpro}, topRunningActivity=ActivityRecord{254029887 u0 com.capji.signalpro/.MainActivity t8}, callbackInfo=OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@2d3b39b, mPriority=0, mIsAnimationCallback=true, mOverrideBehavior=0}, currentFocus=Window{faa211a u0 com.capji.signalpro/com.capji.signalpro.MainActivity}
-11-27 06:36:42.182  6855  6855 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:36:42.190  6855  6855 I AndroidRuntime: Using default boot image
-11-27 06:36:42.195  6855  6855 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:36:42.378  6855  6855 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:36:43.856  2911  6871 I CapjiTiming: protect=8 server=1.1.1.1
-11-27 06:36:43.856  2911  6872 I CapjiTiming: protect=0 server=1.1.1.1
-11-27 06:36:43.920  2911  6871 I CapjiTiming: queued=1 relay=73
-11-27 06:36:43.926  2911  6872 I CapjiTiming: queued=10 relay=70
-11-27 06:36:45.318  6855  6855 D AndroidRuntime: Shutting down VM
-11-27 06:36:51.437  6891  6891 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:36:51.444  6891  6891 I AndroidRuntime: Using default boot image
-11-27 06:36:51.445  6891  6891 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:36:51.575  6891  6891 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:36:54.139  6891  6891 D AndroidRuntime: Shutting down VM
-11-27 06:36:55.657  1289  1289 I NotificationListener: received notification posted event - com.capji.signalpro#UserHandle{0},category=-1
-11-27 06:36:57.156  6915  6915 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:36:57.178  6915  6915 I AndroidRuntime: Using default boot image
-11-27 06:36:57.178  6915  6915 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:36:57.393  6915  6915 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:36:59.660  6915  6915 D AndroidRuntime: Shutting down VM
-11-27 06:37:03.117  6939  6939 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:37:03.122  6939  6939 I AndroidRuntime: Using default boot image
-11-27 06:37:03.122  6939  6939 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:37:03.254  6939  6939 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:37:05.587  6939  6939 D AndroidRuntime: Shutting down VM
-11-27 06:37:06.857   646  1846 D CoreBackPreview: Window{faa211a u0 com.capji.signalpro/com.capji.signalpro.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@2c64322, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
-11-27 06:37:17.358  7007  7007 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:37:17.361  7007  7007 I AndroidRuntime: Using default boot image
-11-27 06:37:17.361  7007  7007 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:37:17.465  7007  7007 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:37:18.917  7007  7007 D AndroidRuntime: Shutting down VM
-11-27 06:37:20.103  7025  7025 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:37:20.112  7025  7025 I AndroidRuntime: Using default boot image
-11-27 06:37:20.112  7025  7025 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:37:20.380  7025  7025 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:37:21.888  7025  7025 D AndroidRuntime: Shutting down VM
-11-27 06:37:23.172   646   912 D WifiLockManager: releaseLock: WifiLock{capji:latency:4 type=4 uid=1000 workSource=WorkSource{10216 com.capji.signalpro}}
-11-27 06:37:23.202  1289  1289 I NotificationListener: received notification removed event - com.capji.signalpro#UserHandle{0},category=-1
-11-27 06:37:29.764  7066  7066 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:37:29.767  7066  7066 I AndroidRuntime: Using default boot image
-11-27 06:37:29.767  7066  7066 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:37:29.868  7066  7066 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:37:31.425  7066  7066 D AndroidRuntime: Shutting down VM
-11-27 06:37:33.977  7088  7088 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:37:33.983  7088  7088 I AndroidRuntime: Using default boot image
-11-27 06:37:33.983  7088  7088 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:37:34.121  7088  7088 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:37:35.476  7088  7088 D AndroidRuntime: Shutting down VM
-11-27 06:37:36.756  2911  3157 I capji.signalpro: Waiting for a blocking GC ProfileSaver
-11-27 06:37:36.787  2911  2925 W capji.signalpro: Cleared Reference was only reachable from finalizer (only reported once)
-11-27 06:37:36.824  2911  3157 I capji.signalpro: WaitForGcToComplete blocked ProfileSaver on Background for 67.191ms
-11-27 06:37:36.835   591   635 I Camera2ClientBase: ~Camera2ClientBase: Client object's dtor for Camera Id 10 completed. Client was: com.capji.signalpro (PID 2911, UID 10216)
-11-27 06:37:37.209   646  1846 I ActivityManager: Background started FGS: Allowed [callingPackage: com.capji.signalpro; callingUid: 10216; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { act=com.capji.signalpro.vpn.START xflg=0x4 cmp=com.capji.signalpro/.vpn.CapjiDnsVpnService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
-11-27 06:37:37.239   646  1090 D ConnectivityService: registerNetworkAgent NetworkAgentInfo{network{103}  handle{445787328525}  ni{VPN CONNECTING extra: VPN:com.capji.signalpro} created=2026-11-27T06:37:37.233Z Score(Policies : IS_UNMETERED&IS_VPN ; KeepConnected : 0)   lp{{InterfaceName: tun0 LinkAddresses: [ 10.215.173.1/32 ] DnsAddresses: [ /10.215.173.2 ] Domains:  MTU: 4096 Routes: [ 10.215.173.2/32 -> 0.0.0.0 tun0 mtu 0 ]}}  nc{[ Transports: VPN Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED TransportInfo: <VpnTransportInfo{type=1, sessionId=CAPJI Signal Pro DNS, bypassable=true longLivedTcpConnectionsExpensive=false}> Uids: <{0-99999}> OwnerUid: 10216 AdminUids: [10216] UnderlyingNetworks: Null]}  factorySerialNumber=4}
-11-27 06:37:37.239   646  1090 I Vpn     : Established by com.capji.signalpro on tun0
-11-27 06:37:37.242   646  1846 I WifiService: acquireWifiLock uid=10216 lockMode=4 packageName=com.capji.signalpro
-11-27 06:37:37.246   646   912 D WifiLockManager: addLock: WifiLock{capji:latency:4 type=4 uid=1000 workSource=WorkSource{10216 com.capji.signalpro}}
-11-27 06:37:37.472  1289  1289 I NotificationListener: received notification posted event - com.capji.signalpro#UserHandle{0},category=-1
-11-27 06:37:37.762  2911  7122 I CapjiTiming: protect=0 server=9.9.9.9
-11-27 06:37:37.785  2911  7122 I CapjiTiming: queued=2 relay=24
-11-27 06:37:37.862  2911  7123 I CapjiTiming: protect=0 server=9.9.9.9
-11-27 06:37:37.873  2911  7123 I CapjiTiming: queued=70 relay=11
-11-27 06:37:37.879  2911  7125 I CapjiTiming: protect=0 server=9.9.9.9
-11-27 06:37:37.893  2911  7125 I CapjiTiming: queued=0 relay=14
-11-27 06:37:37.897  2911  7126 I CapjiTiming: protect=3 server=9.9.9.9
-11-27 06:37:37.905  2911  7126 I CapjiTiming: queued=0 relay=11
-11-27 06:37:37.906  2911  7127 I CapjiTiming: protect=0 server=9.9.9.9
-11-27 06:37:37.923  2911  7127 I CapjiTiming: queued=0 relay=16
-11-27 06:37:38.003  2911  7128 I CapjiTiming: protect=13 server=9.9.9.9
-11-27 06:37:38.086  2911  7128 I CapjiTiming: queued=8 relay=96
-11-27 06:37:38.651  7131  7131 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-11-27 06:37:38.656  7131  7131 I AndroidRuntime: Using default boot image
-11-27 06:37:38.656  7131  7131 I AndroidRuntime: Leaving lock profiling enabled
-11-27 06:37:38.777  7131  7131 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
-11-27 06:37:40.211  7131  7131 D AndroidRuntime: Shutting down VM
+n(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:26.135   646  1384 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:26.354  5448  5448 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:47:27.277   646  1833 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:27.277   646  1833 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:28.429   646  1855 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:28.429   646  1855 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:29.489   646  1962 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:29.489   646  1962 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:29.800  5448  5448 D AndroidRuntime: Shutting down VM
+11-27 06:47:30.606   646  1855 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:30.607   646  1855 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:31.733   646  1855 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:31.733   646  1855 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:32.848   646  1855 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:32.848   646  1855 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:33.936  5544  5544 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:47:33.956  5544  5544 I AndroidRuntime: Using default boot image
+11-27 06:47:33.956  5544  5544 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:47:34.079   646  1250 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:34.079   646  1250 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:34.340  5544  5544 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:47:35.204   646  1213 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:35.204   646  1213 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:36.240   646  1855 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:36.241   646  1855 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:36.285  5544  5544 D AndroidRuntime: Shutting down VM
+11-27 06:47:36.941  3949  3949 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+11-27 06:47:37.349   646  1857 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:37.349   646  1857 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:38.494   646  1857 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:38.496   646  1857 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:39.609   646  1835 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:39.609   646  1835 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:39.927  5619  5619 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:47:39.948  5619  5619 I AndroidRuntime: Using default boot image
+11-27 06:47:39.948  5619  5619 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:47:40.225  5619  5619 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:47:40.796   646  1835 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:40.796   646  1835 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:41.891   646  1398 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:41.891   646  1398 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:43.004   646  1964 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:43.004   646  1964 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:44.061   646  1960 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:44.061   646  1960 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:44.255  5619  5619 D AndroidRuntime: Shutting down VM
+11-27 06:47:44.839   646  1960 I AppsFilter: interaction: PackageSetting{dd45d91 com.capji.signalpro/10216} -> PackageSetting{d507faf com.google.android.apps.photos/10159} BLOCKED
+11-27 06:47:45.188   646  1964 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:45.188   646  1964 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:46.391   646  1960 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:46.391   646  1960 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:46.984   646   703 I AppsFilter: interaction: PackageSetting{dd45d91 com.capji.signalpro/10216} -> PackageSetting{869d7 com.google.android.apps.photos/10159} BLOCKED
+11-27 06:47:47.552   646   733 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:47.552   646   733 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:48.638  5708  5708 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:47:48.661  5708  5708 I AndroidRuntime: Using default boot image
+11-27 06:47:48.665  5708  5708 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:47:48.780   646  1206 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:48.780   646  1206 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:49.111  5708  5708 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:47:49.873   646  1960 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:49.873   646  1960 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:50.844   646  1843 I AppsFilter: interaction: PackageSetting{dd45d91 com.capji.signalpro/10216} -> PackageSetting{cb49bc8 com.google.android.settings.intelligence/10136} BLOCKED
+11-27 06:47:51.271   646  1210 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:51.271   646  1210 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:52.438   646  1398 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:52.438   646  1398 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:53.498   646  1194 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:53.498   646  1194 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:54.202  3010  3017 I capji.signalpro: Background concurrent mark compact GC freed 5280KB AllocSpace bytes, 48(960KB) LOS objects, 49% free, 6574KB/12MB, paused 146us,25.460ms total 666.374ms
+11-27 06:47:54.581   646  1194 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:54.581   646  1194 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:55.705   646  1962 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:55.705   646  1962 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:56.834   646  1857 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:56.834   646  1857 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:56.970  5708  5708 D AndroidRuntime: Shutting down VM
+11-27 06:47:57.947   646   983 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:57.947   646   983 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:58.574  5845  5845 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:47:58.578  5845  5845 I AndroidRuntime: Using default boot image
+11-27 06:47:58.578  5845  5845 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:47:59.145   646   987 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:47:59.145   646   987 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:47:59.201  5845  5845 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:48:00.253   646  1962 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:00.253   646  1962 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:01.435   646  1213 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:01.436   646  1213 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:02.504   646  1833 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:02.504   646  1833 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:03.601   646  1967 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:03.606   646  1967 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:04.261  5845  5845 D AndroidRuntime: Shutting down VM
+11-27 06:48:04.818   646  1213 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:04.818   646  1213 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:05.943   646  1840 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:05.943   646  1840 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:07.024   646  1206 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:07.024   646  1206 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:07.909  6143  6143 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:48:07.934  6143  6143 I AndroidRuntime: Using default boot image
+11-27 06:48:07.934  6143  6143 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:48:08.115   646  1840 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:08.115   646  1840 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:08.391  6143  6143 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:48:09.345   646  1398 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:09.345   646  1398 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:10.480   646  1206 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:10.480   646  1206 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:11.674   646  1398 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:11.674   646  1398 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:12.820   646  1962 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:12.820   646  1962 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:12.934  6143  6143 D AndroidRuntime: Shutting down VM
+11-27 06:48:14.052   646   663 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:14.052   646   663 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:14.108   646   663 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:14.108   646   663 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:14.912   646   987 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:14.912   646   987 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:15.160   646  1398 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:15.160   646  1398 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:15.735   646   983 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:15.736   646   983 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:16.293   646   983 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:16.293   646   983 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:16.544   646   983 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:16.544   646   983 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:17.224   646  1398 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:17.224   646  1398 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:17.405   646  1250 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:17.405   646  1250 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:17.977   646  1250 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:17.981   646  1250 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:18.487   646   987 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:18.487   646   987 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:18.751   646  1833 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:18.751   646  1833 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:19.500   646   983 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:19.500   646   983 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:19.576   646  1210 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:19.576   646  1210 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:20.721   646   983 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:20.721   646   983 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:21.853   646  1833 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:21.853   646  1833 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:22.997   646  1250 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:22.997   646  1250 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:24.111   646   663 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:24.111   646   663 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:25.222   646   663 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:25.222   646   663 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:26.313   646  1213 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:26.313   646  1213 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:27.349   646   987 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:27.349   646   987 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:27.745  3010  3017 I capji.signalpro: Background concurrent mark compact GC freed 5408KB AllocSpace bytes, 50(1064KB) LOS objects, 49% free, 6542KB/12MB, paused 823us,3.705ms total 419.761ms
+11-27 06:48:28.466   646  1213 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:28.466   646  1213 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:28.482  6281  6281 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:48:28.488  6281  6281 I AndroidRuntime: Using default boot image
+11-27 06:48:28.488  6281  6281 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:48:29.250  6281  6281 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:48:29.646   646  1213 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:29.646   646  1213 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:30.771   646  1250 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:30.771   646  1250 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:31.864   646  1213 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:31.864   646  1213 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:32.660  6281  6281 D AndroidRuntime: Shutting down VM
+11-27 06:48:32.968   646  1213 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:32.968   646  1213 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:34.094   646  1250 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:34.094   646  1250 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:35.145   646  1250 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:35.145   646  1250 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:36.204   646  1210 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:36.207   646  1210 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:37.264   646  1210 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:37.264   646  1210 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:37.679  6351  6351 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:48:37.734  6351  6351 I AndroidRuntime: Using default boot image
+11-27 06:48:37.737  6351  6351 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:48:38.003  6351  6351 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:48:38.428   646  1213 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:38.428   646  1213 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:39.518   646  1210 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:39.518   646  1210 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:40.554   646   663 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:40.554   646   663 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:41.712   646  1250 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:41.713   646  1250 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:42.511  6351  6351 D AndroidRuntime: Shutting down VM
+11-27 06:48:42.776   646  1213 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:42.776   646  1213 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:43.741   646  1213 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:43.742   646   917 I WifiScanningService: Registering listener= com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@41ceffd uid=1000 packageName=com.capji.signalpro workSource=WorkSource{1000}
+11-27 06:48:43.742   646   917 I WifiScanningService: start scan: ClientInfo[uid=1000, package=com.capji.signalpro, attributionTag=null, com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@41ceffd] package com.capji.signalpro AttributionTag null
+11-27 06:48:43.742   646   917 I WifiScanningService: addSingleScanRequest: ClientInfo[uid=1000, package=com.capji.signalpro, attributionTag=null, com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@41ceffd],WorkSource{10216 com.capji.signalpro}, ScanSettings {  type:LOW LATENCY band:24Ghz & 5Ghz (DFS incl) & 6Ghz & 60Ghz ignoreLocationSettings:false period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 rnrSetting:0 6GhzPscOnlyEnabled:true channels:[  ]  } 
+11-27 06:48:43.825   646  1250 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:43.825   646  1250 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:47.826   646   917 I WifiScanningService: singleScanResults: ClientInfo[uid=1000, package=com.capji.signalpro, attributionTag=null, com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@41ceffd],results=1
+11-27 06:48:47.827   646   917 I WifiScanningService: Unregistering listener= com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@41ceffd uid=1000 packageName=com.capji.signalpro workSource=WorkSource{1000}
+11-27 06:48:47.990   646  1142 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:48.048   646  1210 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:48:48.048   646  1210 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:48:48.478  6417  6417 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:48:48.483  6417  6417 I AndroidRuntime: Using default boot image
+11-27 06:48:48.486  6417  6417 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:48:48.755  6417  6417 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:48:50.426  6417  6417 D AndroidRuntime: Shutting down VM
+11-27 06:48:54.866  3010  3017 I capji.signalpro: Background concurrent mark compact GC freed 5404KB AllocSpace bytes, 38(760KB) LOS objects, 49% free, 7050KB/13MB, paused 136us,3.726ms total 506.323ms
+11-27 06:49:36.116  6532  6532 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:49:36.128  6532  6532 I AndroidRuntime: Using default boot image
+11-27 06:49:36.128  6532  6532 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:49:36.544  6532  6532 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:49:39.517  6532  6532 D AndroidRuntime: Shutting down VM
+11-27 06:49:41.017  6552  6552 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:49:41.077  6552  6552 I AndroidRuntime: Using default boot image
+11-27 06:49:41.077  6552  6552 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:49:41.400  6552  6552 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:49:44.183  6552  6552 D AndroidRuntime: Shutting down VM
+11-27 06:49:47.890  6579  6579 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:49:47.898  6579  6579 I AndroidRuntime: Using default boot image
+11-27 06:49:47.898  6579  6579 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:49:48.156  6579  6579 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:49:49.986  3010  3017 I capji.signalpro: Background concurrent mark compact GC freed 5728KB AllocSpace bytes, 58(1160KB) LOS objects, 49% free, 7154KB/13MB, paused 241us,55.954ms total 372.596ms
+11-27 06:49:50.973  6579  6579 D AndroidRuntime: Shutting down VM
+11-27 06:49:54.840  6602  6602 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:49:54.845  6602  6602 I AndroidRuntime: Using default boot image
+11-27 06:49:54.845  6602  6602 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:49:55.142  6602  6602 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:49:58.031  6602  6602 D AndroidRuntime: Shutting down VM
+11-27 06:50:08.240  6669  6669 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:50:08.245  6669  6669 I AndroidRuntime: Using default boot image
+11-27 06:50:08.245  6669  6669 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:50:08.403  6669  6669 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:50:11.478  6669  6669 D AndroidRuntime: Shutting down VM
+11-27 06:50:14.770  6695  6695 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:50:14.774  6695  6695 I AndroidRuntime: Using default boot image
+11-27 06:50:14.775  6695  6695 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:50:14.936  6695  6695 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:50:17.904  6695  6695 D AndroidRuntime: Shutting down VM
+11-27 06:50:21.859  6720  6720 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:50:21.864  6720  6720 I AndroidRuntime: Using default boot image
+11-27 06:50:21.864  6720  6720 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:50:22.157  6720  6720 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:50:23.730  6720  6720 D AndroidRuntime: Shutting down VM
+11-27 06:50:27.625  6742  6742 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:50:27.629  6742  6742 I AndroidRuntime: Using default boot image
+11-27 06:50:27.629  6742  6742 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:50:27.901  6742  6742 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:50:30.256  6742  6742 D AndroidRuntime: Shutting down VM
+11-27 06:50:31.716   646  1855 V WifiPermissionsUtil: checkCallersLocationPermission(com.capji.signalpro): ok because uid 10216 has app-op android:fine_location
+11-27 06:50:31.719   646  1855 V WifiService: Clearing REDACT_FOR_ACCESS_FINE_LOCATION for com.capji.signalpro(uid=10216)
+11-27 06:50:38.012  6770  6770 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:50:38.017  6770  6770 I AndroidRuntime: Using default boot image
+11-27 06:50:38.018  6770  6770 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:50:38.212  6770  6770 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:50:40.367  6770  6770 D AndroidRuntime: Shutting down VM
+11-27 06:50:44.147  6809  6809 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:50:44.150  6809  6809 I AndroidRuntime: Using default boot image
+11-27 06:50:44.150  6809  6809 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:50:44.382  6809  6809 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:50:50.107  6809  6809 D AndroidRuntime: Shutting down VM
+11-27 06:50:53.707  6838  6838 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:50:53.713  6838  6838 I AndroidRuntime: Using default boot image
+11-27 06:50:53.713  6838  6838 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:50:53.976  6838  6838 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:50:55.938  6838  6838 D AndroidRuntime: Shutting down VM
+11-27 06:50:57.390  3010  3017 I capji.signalpro: Background concurrent mark compact GC freed 6376KB AllocSpace bytes, 2(68KB) LOS objects, 49% free, 7894KB/15MB, paused 465us,2.419ms total 138.231ms
+11-27 06:51:01.509   646  1855 W NotificationService: Toast already killed. pkg=com.capji.signalpro token=android.os.BinderProxy@55fdb0
+11-27 06:51:03.117  6899  6899 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:51:03.123  6899  6899 I AndroidRuntime: Using default boot image
+11-27 06:51:03.123  6899  6899 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:51:03.282  6899  6899 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:51:06.267  6899  6899 D AndroidRuntime: Shutting down VM
+11-27 06:51:12.429  6938  6938 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:51:12.434  6938  6938 I AndroidRuntime: Using default boot image
+11-27 06:51:12.434  6938  6938 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:51:12.654  6938  6938 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:51:15.166  6938  6938 D AndroidRuntime: Shutting down VM
+11-27 06:51:19.010  6964  6964 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:51:19.014  6964  6964 I AndroidRuntime: Using default boot image
+11-27 06:51:19.019  6964  6964 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:51:19.330  6964  6964 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:51:20.790  6964  6964 D AndroidRuntime: Shutting down VM
+11-27 06:51:24.335  1686  1751 V MediaProvider: Created relation b/w 1 and com.capji.signalpro::0
+11-27 06:51:24.336  1686  1696 I MediaProvider: Open with lower FS for /storage/emulated/0/Pictures/CAPJI/.pending-1796367084-CAPJI-WiFi-1795762284311.png. Uid: 10216
+11-27 06:51:24.866  1686  1696 D MediaProvider: Moving /storage/emulated/0/Pictures/CAPJI/.pending-1796367084-CAPJI-WiFi-1795762284311.png to /storage/emulated/0/Pictures/CAPJI/CAPJI-WiFi-1795762284311.png
+11-27 06:51:24.876  1686  1751 V MediaProvider: Deleted backup of old file path: /storage/emulated/0/Pictures/CAPJI/.pending-1796367084-CAPJI-WiFi-1795762284311.png
+11-27 06:51:29.168  6994  6994 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:51:29.174  6994  6994 I AndroidRuntime: Using default boot image
+11-27 06:51:29.174  6994  6994 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:51:29.387  6994  6994 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:51:30.852  6994  6994 D AndroidRuntime: Shutting down VM
+11-27 06:51:32.312  7013  7013 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:51:32.319  7013  7013 I AndroidRuntime: Using default boot image
+11-27 06:51:32.320  7013  7013 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:51:32.617  7013  7013 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:51:34.206  7013  7013 D AndroidRuntime: Shutting down VM
+11-27 06:51:35.435  1008  1070 V WindowManagerShell: Transition requested (#13): android.os.BinderProxy@3ab8848 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 effectiveUid=10216 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.capji.signalpro/.MainActivity } baseActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} topActivity=ComponentInfo{com.android.intentresolver/com.android.intentresolver.ChooserActivity} origActivity=null realActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} numActivities=2 lastActiveTime=510100 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@33f26e1} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{2c24c06 com.android.intentresolver.ChooserActivityLauncher} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=true isActivityStackTransparent=false lastNonFullscreenBounds=Rect(276, 692 - 804, 1772) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2400) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 13 }
+11-27 06:51:35.847  7035  7035 I ChooserHelper: ActivityModel(intent=Intent { act=android.intent.action.CHOOSER flg=0x800001 xflg=0x4 cmp=com.android.intentresolver/.ChooserActivityLauncher clip={text/uri-list hasLabel(5) {U(content)}} (has extras) }, launchedFromUid=10216, launchedFromPackage=com.capji.signalpro, referrer=android-app://com.capji.signalpro, isTaskRoot=false)
+11-27 06:51:37.995   646   669 V WindowManager: Sent Transition (#13) createdAt=11-27 06:51:35.430 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 effectiveUid=10216 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.capji.signalpro/.MainActivity } baseActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} topActivity=ComponentInfo{com.android.intentresolver/com.android.intentresolver.ChooserActivity} origActivity=null realActivity=ComponentInfo{com.capji.signalpro/com.capji.signalpro.MainActivity} numActivities=2 lastActiveTime=510100 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{3cb0d08 Task{e5531c3 #8 type=standard A=10216:com.capji.signalpro}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{71f2324 com.android.intentresolver.ChooserActivityLauncher} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=true isActivityStackTransparent=false lastNonFullscreenBounds=Rect(276, 692 - 804, 1772) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2400) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 13 }
+11-27 06:51:43.635   646   767 I ImeTracker: com.capji.signalpro:ac4db125: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-27 06:51:43.667  1538  1538 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.capji.signalpro, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-27 06:51:43.670   646  1962 W PackageConfigPersister: App-specific configuration not found for packageName: com.capji.signalpro and userId: 0
+11-27 06:51:43.818  3010  3010 I ImeTracker: com.capji.signalpro:ac4db125: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-27 06:51:45.697  7104  7104 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:51:45.746  7104  7104 I AndroidRuntime: Using default boot image
+11-27 06:51:45.746  7104  7104 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:51:45.979  7104  7104 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:51:47.546  7104  7104 D AndroidRuntime: Shutting down VM
+11-27 06:51:51.447  7128  7128 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:51:51.451  7128  7128 I AndroidRuntime: Using default boot image
+11-27 06:51:51.451  7128  7128 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:51:51.619  7128  7128 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:51:54.672  7128  7128 D AndroidRuntime: Shutting down VM
+11-27 06:51:55.952   646  1213 D CoreBackPreview: Window{b5e1c0e u0 com.capji.signalpro/com.capji.signalpro.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@2392828, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-27 06:51:55.953   646   983 D CoreBackPreview: Window{b5e1c0e u0 com.capji.signalpro/com.capji.signalpro.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@3827941, mPriority=0, mIsAnimationCallback=true, mOverrideBehavior=0}
+11-27 06:51:57.267   646   767 I ImeTracker: com.capji.signalpro:8458d28e: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-27 06:51:57.284  1538  1538 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.capji.signalpro, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-27 06:51:57.284   646  1962 W PackageConfigPersister: App-specific configuration not found for packageName: com.capji.signalpro and userId: 0
+11-27 06:51:57.677  3010  3010 I ImeTracker: com.capji.signalpro:8458d28e: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-27 06:52:02.076   593  3376 I CameraService: CameraService::connect call (PID 3010 "com.capji.signalpro", camera ID 10) and Camera API version 2
+11-27 06:52:02.085   593  3376 I Camera2ClientBase: Camera 10: Opened. Client: com.capji.signalpro (PID 3010, UID 10216)
+11-27 06:52:03.202  3010  7168 W capji.signalpro: Long monitor contention with owner CameraX-core_camera_0 (7153) at void android.hardware.camera2.impl.CameraDeviceImpl.waitUntilIdle()(CameraDeviceImpl.java:1729) waiters=0 in void android.hardware.camera2.impl.CameraDeviceImpl$6.run() for 702ms
+11-27 06:52:05.305  3010  7156 W capji.signalpro: Verification of void com.google.android.gms.internal.mlkit_vision_common.zzhe.configure(com.google.firebase.encoders.config.EncoderConfig) took 200.846ms (4919.18 bytecodes/s) (0B arena alloc)
+11-27 06:52:05.332  3010  7173 D nativeloader: Load /data/app/~~i3hBiTBgr9HnmpttMkf5Lg==/com.capji.signalpro-xdbp2VFteoeJijDIYJZz1A==/base.apk!/lib/x86_64/libbarhopper_v3.so using class loader ns clns-9 (caller=/data/app/~~i3hBiTBgr9HnmpttMkf5Lg==/com.capji.signalpro-xdbp2VFteoeJijDIYJZz1A==/base.apk!classes13.dex): ok
+11-27 06:52:06.095  3010  3017 I capji.signalpro: Background concurrent mark compact GC freed 5678KB AllocSpace bytes, 2(104KB) LOS objects, 49% free, 11MB/22MB, paused 268us,13.718ms total 746.435ms
+11-27 06:52:20.626  7187  7187 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:52:20.638  7187  7187 I AndroidRuntime: Using default boot image
+11-27 06:52:20.638  7187  7187 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:52:21.044  7187  7187 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:52:25.150  7187  7187 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@e2c2; boundsInParent: Rect(0, 0 - 1080, 2209); boundsInScreen: Rect(0, 128 - 1080, 2337); boundsInWindow: Rect(0, 128 - 1080, 2337); packageName: com.capji.signalpro; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+11-27 06:52:26.545  7187  7187 D AndroidRuntime: Shutting down VM
+11-27 06:52:28.614   646   983 D CoreBackPreview: Window{b5e1c0e u0 com.capji.signalpro/com.capji.signalpro.MainActivity}: Setting back callback null
+11-27 06:52:28.642  3010  3208 E BufferQueueProducer: [be5954c SurfaceView[com.capji.signalpro/com.capji.signalpro.MainActivity]#3(BLAST Consumer)3](id:bc200000005,api:4,p:593,c:3010) queueBuffer: BufferQueue has been abandoned
+11-27 06:52:28.643  3010  3208 E BufferQueueProducer: [be5954c SurfaceView[com.capji.signalpro/com.capji.signalpro.MainActivity]#3(BLAST Consumer)3](id:bc200000005,api:4,p:593,c:3010) dequeueBuffer: BufferQueue has been abandoned
+11-27 06:52:28.827  3010  3023 E BufferQueueProducer: [be5954c SurfaceView[com.capji.signalpro/com.capji.signalpro.MainActivity]#3(BLAST Consumer)3](id:bc200000005,api:4,p:593,c:3010) queueBuffer: BufferQueue has been abandoned
+11-27 06:52:28.828  3010  4412 E BufferQueueProducer: [be5954c SurfaceView[com.capji.signalpro/com.capji.signalpro.MainActivity]#3(BLAST Consumer)3](id:bc200000005,api:4,p:593,c:3010) cancelBuffer: BufferQueue has been abandoned
+11-27 06:52:28.828  3010  4412 E BufferQueueProducer: [be5954c SurfaceView[com.capji.signalpro/com.capji.signalpro.MainActivity]#3(BLAST Consumer)3](id:bc200000005,api:4,p:593,c:3010) cancelBuffer: BufferQueue has been abandoned
+11-27 06:52:29.212  3010  3208 W capji.signalpro: Long monitor contention with owner CameraX-core_camera_0 (7153) at void android.hardware.camera2.impl.CameraDeviceImpl.close()(CameraDeviceImpl.java:1800) waiters=0 in void android.hardware.camera2.impl.CameraDeviceImpl$CameraDeviceCallbacks.onCaptureStarted(android.hardware.camera2.impl.CaptureResultExtras, long) for 231ms
+11-27 06:52:29.217   646   767 I ImeTracker: com.capji.signalpro:74652d1f: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-27 06:52:29.224  1538  1538 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.capji.signalpro, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-27 06:52:29.225   646  1142 W PackageConfigPersister: App-specific configuration not found for packageName: com.capji.signalpro and userId: 0
+11-27 06:52:29.278  3010  3010 I ImeTracker: com.capji.signalpro:74652d1f: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-27 06:52:31.228  7211  7211 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:52:31.237  7211  7211 I AndroidRuntime: Using default boot image
+11-27 06:52:31.237  7211  7211 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:52:31.644  7211  7211 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:52:33.254  7211  7211 D AndroidRuntime: Shutting down VM
+11-27 06:52:37.053  7234  7234 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:52:37.065  7234  7234 I AndroidRuntime: Using default boot image
+11-27 06:52:37.070  7234  7234 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:52:37.517  7234  7234 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:52:40.765  7234  7234 D AndroidRuntime: Shutting down VM
+11-27 06:52:44.677  7260  7260 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:52:44.687  7260  7260 I AndroidRuntime: Using default boot image
+11-27 06:52:44.692  7260  7260 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:52:44.860  7260  7260 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:52:48.546  7260  7260 D AndroidRuntime: Shutting down VM
+11-27 06:52:52.043  7292  7292 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:52:52.057  7292  7292 I AndroidRuntime: Using default boot image
+11-27 06:52:52.057  7292  7292 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:52:52.224  7292  7292 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:52:55.793  7292  7292 D AndroidRuntime: Shutting down VM
+11-27 06:52:59.448  7318  7318 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:52:59.452  7318  7318 I AndroidRuntime: Using default boot image
+11-27 06:52:59.452  7318  7318 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:52:59.610  7318  7318 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:53:02.387  7318  7318 D AndroidRuntime: Shutting down VM
+11-27 06:53:07.922  7345  7345 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:53:07.927  7345  7345 I AndroidRuntime: Using default boot image
+11-27 06:53:07.927  7345  7345 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:53:08.252  7345  7345 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:53:12.437  7345  7345 D AndroidRuntime: Shutting down VM
+11-27 06:53:14.068  1320  1320 I NotificationListener: received notification posted event - com.capji.signalpro#UserHandle{0},category=-1
+11-27 06:53:15.680  7374  7374 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:53:15.684  7374  7374 I AndroidRuntime: Using default boot image
+11-27 06:53:15.685  7374  7374 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:53:15.857  7374  7374 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:53:18.628  7374  7374 D AndroidRuntime: Shutting down VM
+11-27 06:53:21.723  7397  7397 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:53:21.738  7397  7397 I AndroidRuntime: Using default boot image
+11-27 06:53:21.744  7397  7397 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:53:21.881  7397  7397 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:53:24.843  7397  7397 D AndroidRuntime: Shutting down VM
+11-27 06:53:26.324   646  1398 D CoreBackPreview: Window{8b838ed u0 com.capji.signalpro/com.capji.signalpro.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@26e62ba, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-27 06:53:36.975  7463  7463 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:53:36.988  7463  7463 I AndroidRuntime: Using default boot image
+11-27 06:53:36.988  7463  7463 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:53:37.125  7463  7463 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:53:38.502  7463  7463 D AndroidRuntime: Shutting down VM
+11-27 06:53:39.664  7481  7481 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:53:39.675  7481  7481 I AndroidRuntime: Using default boot image
+11-27 06:53:39.675  7481  7481 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:53:39.822  7481  7481 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:53:41.407  7481  7481 D AndroidRuntime: Shutting down VM
+11-27 06:53:42.745   646   913 D WifiLockManager: releaseLock: WifiLock{capji:latency:4 type=4 uid=1000 workSource=WorkSource{10216 com.capji.signalpro}}
+11-27 06:53:42.757  1320  1320 I NotificationListener: received notification removed event - com.capji.signalpro#UserHandle{0},category=-1
+11-27 06:53:49.677  7536  7536 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:53:49.682  7536  7536 I AndroidRuntime: Using default boot image
+11-27 06:53:49.682  7536  7536 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:53:49.952  7536  7536 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:53:51.510  7536  7536 D AndroidRuntime: Shutting down VM
+11-27 06:53:55.113  7563  7563 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:53:55.122  7563  7563 I AndroidRuntime: Using default boot image
+11-27 06:53:55.123  7563  7563 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:53:55.413  7563  7563 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:53:56.430  3010  3017 W capji.signalpro: Cleared Reference was only reachable from finalizer (only reported once)
+11-27 06:53:56.536  3010  3017 I capji.signalpro: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 7(1068KB) LOS objects, 49% free, 9794KB/19MB, paused 198us,6.198ms total 222.863ms
+11-27 06:53:56.648   593  3376 I Camera2ClientBase: ~Camera2ClientBase: Client object's dtor for Camera Id 10 completed. Client was: com.capji.signalpro (PID 3010, UID 10216)
+11-27 06:53:56.987  7563  7563 D AndroidRuntime: Shutting down VM
+11-27 06:53:58.960   646  1843 I ActivityManager: Background started FGS: Allowed [callingPackage: com.capji.signalpro; callingUid: 10216; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { act=com.capji.signalpro.vpn.START xflg=0x4 cmp=com.capji.signalpro/.vpn.CapjiDnsVpnService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+11-27 06:53:58.991   646   983 D ConnectivityService: registerNetworkAgent NetworkAgentInfo{network{103}  handle{445787328525}  ni{VPN CONNECTING extra: VPN:com.capji.signalpro} created=2026-11-27T06:53:58.991Z Score(Policies : IS_UNMETERED&IS_VPN ; KeepConnected : 0)   lp{{InterfaceName: tun0 LinkAddresses: [ 10.215.173.1/32 ] DnsAddresses: [ /10.215.173.2 ] Domains:  MTU: 4096 Routes: [ 10.215.173.2/32 -> 0.0.0.0 tun0 mtu 0 ]}}  nc{[ Transports: VPN Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED TransportInfo: <VpnTransportInfo{type=1, sessionId=CAPJI Signal Pro DNS, bypassable=true longLivedTcpConnectionsExpensive=false}> Uids: <{0-99999}> OwnerUid: 10216 AdminUids: [10216] UnderlyingNetworks: Null]}  factorySerialNumber=4}
+11-27 06:53:58.991   646   983 I Vpn     : Established by com.capji.signalpro on tun0
+11-27 06:53:58.992   646   983 I WifiService: acquireWifiLock uid=10216 lockMode=4 packageName=com.capji.signalpro
+11-27 06:53:59.004   646   913 D WifiLockManager: addLock: WifiLock{capji:latency:4 type=4 uid=1000 workSource=WorkSource{10216 com.capji.signalpro}}
+11-27 06:53:59.265  1320  1320 I NotificationListener: received notification posted event - com.capji.signalpro#UserHandle{0},category=-1
+11-27 06:54:00.383  7619  7619 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 06:54:00.391  7619  7619 I AndroidRuntime: Using default boot image
+11-27 06:54:00.391  7619  7619 I AndroidRuntime: Leaving lock profiling enabled
+11-27 06:54:00.555  7619  7619 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-27 06:54:01.977  7619  7619 D AndroidRuntime: Shutting down VM

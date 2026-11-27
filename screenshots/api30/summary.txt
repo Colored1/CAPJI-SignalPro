@@ -14,7 +14,7 @@ PASS | live SSID shown |
 PASS | room reading saved | 
 PASS | open analyzer | 
 PASS | start ping test | 
-PASS | ping test ends with a verdict | ['الاتصال مستقر']
+PASS | ping test ends with a verdict | ['لا يوجد إنترنت']
 PASS | channel recommendation | 
 PASS | open tools | 
 PASS | use generated password | 

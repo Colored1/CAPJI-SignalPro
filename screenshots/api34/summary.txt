@@ -5,8 +5,8 @@ PASS | no tunnel before consent |
 PASS | boost becomes active | 
 PASS | tun interface exists | 
 PASS | service is foreground | 
-PASS | names resolve through tunnel | PING wikipedia.org (208.80.154.224) 56(84) bytes of data. / PING example.com (104.20.23.154) 56(84) bytes of data. / PING github.com (140.82.114.3) 56(84) bytes of data.
-PASS | tunnel answered DNS queries | count=21
+PASS | names resolve through tunnel | PING wikipedia.org (198.35.26.224) 56(84) bytes of data. / PING example.com (104.20.23.154) 56(84) bytes of data. / PING github.com (172.139.64.112) 56(84) bytes of data.
+PASS | tunnel answered DNS queries | count=24
 PASS | benchmark measured servers | 
 PASS | open radar | 
 PASS | sonar runs | 
