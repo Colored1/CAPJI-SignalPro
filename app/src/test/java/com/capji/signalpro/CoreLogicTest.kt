@@ -2,6 +2,7 @@ package com.capji.signalpro
 
 import com.capji.signalpro.core.AccessPoint
 import com.capji.signalpro.core.Band
+import com.capji.signalpro.core.ChannelScore
 import com.capji.signalpro.core.Diagnosis
 import com.capji.signalpro.core.DnsMessage
 import com.capji.signalpro.core.DnsServers
@@ -146,6 +147,14 @@ class CoreLogicTest {
         assertEquals(0, ranked.first().congestion)
         // Channels 1 and 6 do not overlap each other.
         assertEquals(1, WifiMath.score(Band.GHZ_2_4, 6, aps).overlapping)
+    }
+
+    @Test
+    fun channelChangeNeedsARealGain() {
+        val best = ChannelScore(1, 0, 0)
+        assertFalse(WifiMath.worthSwitching(ChannelScore(6, 0, 0), best))
+        assertFalse(WifiMath.worthSwitching(ChannelScore(6, 5, 1), best))
+        assertTrue(WifiMath.worthSwitching(ChannelScore(6, 40, 3), best))
     }
 
     @Test
