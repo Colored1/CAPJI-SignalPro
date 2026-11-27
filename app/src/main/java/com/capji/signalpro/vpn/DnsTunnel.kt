@@ -81,18 +81,7 @@ class DnsTunnel(
         val datagram = IpPacket.parseUdp(packet, length)
         if (datagram != null) {
             if (datagram.destinationPort == 53 && datagram.payload.size >= 12) {
-                val read = System.nanoTime()
-                runCatching {
-                    workers.execute {
-                        val begin = System.nanoTime()
-                        relay(datagram)
-                        val end = System.nanoTime()
-                        android.util.Log.i(
-                            "CapjiTiming",
-                            "queued=${(begin - read) / 1_000_000} relay=${(end - begin) / 1_000_000}",
-                        )
-                    }
-                }
+                runCatching { workers.execute { relay(datagram) } }
             }
             return
         }
@@ -114,10 +103,7 @@ class DnsTunnel(
 
     private fun exchangeUdp(server: String, query: ByteArray): ByteArray? = runCatching {
         DatagramSocket().use { socket ->
-            val a = System.nanoTime()
             service.protect(socket)
-            val b = System.nanoTime()
-            android.util.Log.i("CapjiTiming", "protect=${(b - a) / 1_000_000} server=$server")
             socket.connect(InetAddress.getByName(server), 53)
             socket.soTimeout = TIMEOUT_MS
             socket.send(DatagramPacket(query, query.size))
